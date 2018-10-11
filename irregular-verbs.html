@@ -1,0 +1,903 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>irregular verbs</title>
+	<style>
+		.infinitive { color: lightgrey; background-color: lightgrey; cursor: help; }
+		.infinitive:hover { color: black; background-color: white; }
+
+		.past { color: lightgrey; background-color: lightgrey; cursor: help; }
+		.past:hover { color: black; background-color: white; }
+
+		.past-participle { color: lightgrey; background-color: lightgrey; cursor: help; }
+		.past-participle:hover { color: black; background-color: white; }
+
+		input[type=text] { width: 100px; }
+	</style>
+</head>
+<body>
+
+	<table>
+		<tr>
+			<td class="native">Бути</td>
+			<td class="infinitive">be</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">was, were</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">been</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Народити</td>
+			<td class="infinitive">bear</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">bore</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">born</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Зробитися, стати</td>
+			<td class="infinitive">become</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">became</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">become</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Починати(ся)</td>
+			<td class="infinitive">begin</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">began</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">begun</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Гнути</td>
+			<td class="infinitive">bend</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">bent</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">bent</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Пов'язувати</td>
+			<td class="infinitive">bind</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">bound</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">bound</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Дути</td>
+			<td class="infinitive">blow</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">blew</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">blown</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Ламати(ся)</td>
+			<td class="infinitive">break</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">broke</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">broken</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Приносити</td>
+			<td class="infinitive">bring</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">brought</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">brought</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Будувати</td>
+			<td class="infinitive">build</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">built</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">built</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Горіти, палити</td>
+			<td class="infinitive">burn</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">burnt</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">burnt</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Купувати</td>
+			<td class="infinitive">buy</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">bought</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">bought</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Кидати</td>
+			<td class="infinitive">cast</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">cast</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">cast</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Ловити, хапати</td>
+			<td class="infinitive">catch</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">caught</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">caught</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Вибирати</td>
+			<td class="infinitive">choose</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">chose</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">chosen</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Приходити</td>
+			<td class="infinitive">come</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">came</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">come</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Коштувати</td>
+			<td class="infinitive">cost</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">cost</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">cost</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Різати</td>
+			<td class="infinitive">cut</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">cut</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">cut</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Рити, копати</td>
+			<td class="infinitive">dig</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">dug</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">dug</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Робити</td>
+			<td class="infinitive">do</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">did</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">done</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Тягнути, малювати</td>
+			<td class="infinitive">draw</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">drew</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">drawn</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Мріяти, бачити уві сні</td>
+			<td class="infinitive">dream</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">dreamt</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">dreamt</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Пити</td>
+			<td class="infinitive">drink</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">drank</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">drunk</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Вести, гнати</td>
+			<td class="infinitive">drive</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">drove</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">driven</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Їсти</td>
+			<td class="infinitive">eat</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">ate</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">eaten</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Падати</td>
+			<td class="infinitive">fall</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">fell</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">fallen</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Годувати</td>
+			<td class="infinitive">feed</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">fed</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">fed</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Відчувати</td>
+			<td class="infinitive">feel</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">felt</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">felt</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Боротися</td>
+			<td class="infinitive">fight</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">fought</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">fought</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Знаходити</td>
+			<td class="infinitive">find</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">found</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">found</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Літати</td>
+			<td class="infinitive">fly</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">flew</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">flown</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Забувати</td>
+			<td class="infinitive">forget</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">forgot</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">forgotten</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Отримувати</td>
+			<td class="infinitive">get</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">got</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">got</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Давати</td>
+			<td class="infinitive">give</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">gave</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">given</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Йти</td>
+			<td class="infinitive">go</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">went</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">gone</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Рости, ставати</td>
+			<td class="infinitive">grow</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">grew</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">grown</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Висіти</td>
+			<td class="infinitive">hang</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">hung</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">hung</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Мати</td>
+			<td class="infinitive">have</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">had</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">had</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Чути</td>
+			<td class="infinitive">hear</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">heard</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">heard</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Ховати</td>
+			<td class="infinitive">hide</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">hid</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">hidden</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Тримати, зберігати</td>
+			<td class="infinitive">keep</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">kept</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">kept</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Знати</td>
+			<td class="infinitive">know</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">knew</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">known</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Вести</td>
+			<td class="infinitive">lead</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">led</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">led</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Вчити(ся)</td>
+			<td class="infinitive">learn</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">learnt</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">learnt</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Платити</td>
+			<td class="infinitive">pay</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">paid</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">paid</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Залишати</td>
+			<td class="infinitive">leave</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">left</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">left</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Дозволяти</td>
+			<td class="infinitive">let</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">let</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">let</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Запалювати</td>
+			<td class="infinitive">light</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">lit</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">lit</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Втрачати, програвати</td>
+			<td class="infinitive">lose</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">lost</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">lost</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Робити</td>
+			<td class="infinitive">make</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">made</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">made</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Значити</td>
+			<td class="infinitive">mean</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">meant</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">meant</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Зустрічати</td>
+			<td class="infinitive">meet</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">met</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">met</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Класти</td>
+			<td class="infinitive">put</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">put</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">put</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Читати</td>
+			<td class="infinitive">read</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">read</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">read</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Їздити верхи</td>
+			<td class="infinitive">ride</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">rode</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">ridden</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Бігти</td>
+			<td class="infinitive">run</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">ran</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">run</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Сказати</td>
+			<td class="infinitive">say</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">said</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">said</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Бачити</td>
+			<td class="infinitive">see</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">saw</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">seen</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Продавати</td>
+			<td class="infinitive">sell</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">sold</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">sold</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Посилати</td>
+			<td class="infinitive">send</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">sent</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">sent</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Поміщати</td>
+			<td class="infinitive">set</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">set</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">set</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Трясти</td>
+			<td class="infinitive">shake</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">shook</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">shaken</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Сяяти</td>
+			<td class="infinitive">shine</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">shone</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">shone</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Стріляти</td>
+			<td class="infinitive">shoot</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">shot</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">shot</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Закривати</td>
+			<td class="infinitive">shut</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">shut</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">shut</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Співати</td>
+			<td class="infinitive">sing</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">sang</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">sung</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Сидіти</td>
+			<td class="infinitive">sit</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">sat</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">sat</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Спати</td>
+			<td class="infinitive">sleep</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">slept</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">slept</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Пахнути</td>
+			<td class="infinitive">smell</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">smelt</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">smelt</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Говорити</td>
+			<td class="infinitive">speak</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">spoke</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">spoken</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Витрачати</td>
+			<td class="infinitive">spend</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">spent</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">spent</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Стояти</td>
+			<td class="infinitive">stand</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">stood</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">stood</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Красти</td>
+			<td class="infinitive">steal</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">stole</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">stolen</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Вдарити</td>
+			<td class="infinitive">strike</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">struck</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">struck</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Боротися</td>
+			<td class="infinitive">strive</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">strove</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">striven</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Клястися</td>
+			<td class="infinitive">swear</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">swore</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">sworn</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Плавати</td>
+			<td class="infinitive">swim</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">swam</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">swum</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Брати</td>
+			<td class="infinitive">take</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">took</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">taken</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Навчати</td>
+			<td class="infinitive">teach</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">taught</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">taught</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Розповідати</td>
+			<td class="infinitive">tell</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">told</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">told</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Думати</td>
+			<td class="infinitive">think</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">thought</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">thought</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Кидати</td>
+			<td class="infinitive">throw</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">threw</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">thrown</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Розуміти</td>
+			<td class="infinitive">understand</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">understood</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">understood</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Прокидатися</td>
+			<td class="infinitive">wake</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">woke</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">woken</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Носити, зношувати</td>
+			<td class="infinitive">wear</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">wore</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">worn</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Плакати</td>
+			<td class="infinitive">weep</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">wept</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">wept</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Вигравати, перемагати</td>
+			<td class="infinitive">win</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">won</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">won</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+
+		<tr>
+			<td class="native">Писати</td>
+			<td class="infinitive">write</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past">wrote</td>
+			<td class="input-val"><input type="text"></td>
+			<td class="past-participle">written</td>
+			<td class="input-val"><input type="text"></td>
+		</tr>
+	</table>
+
+</body>
+</html>
