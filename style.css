@@ -5,3 +5,12 @@ header { background-color: LightSeaGreen; }
 header nav ul li { display: inline-block; }
 header nav ul li a { padding: 10px 20px; display: block; color: white; text-decoration: none; }
 header nav ul li a:hover { background-color: Teal; }
+
+table.irregular-verbs { margin-top: 25px; }
+.infinitive { color: lightgrey; background-color: lightgrey; cursor: help; }
+.infinitive:hover { color: black; background-color: white; }
+.past { color: lightgrey; background-color: lightgrey; cursor: help; }
+.past:hover { color: black; background-color: white; }
+.past-participle { color: lightgrey; background-color: lightgrey; cursor: help; }
+.past-participle:hover { color: black; background-color: white; }
+table.irregular-verbs input[type=text] { width: 100px; }
