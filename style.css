@@ -18,4 +18,4 @@ table.irregular-verbs input[type=text] { width: 100px; }
 table.vocabulary { margin-top: 25px; }
 .word-en { color: lightgrey; background-color: lightgrey; cursor: help; }
 .word-en:hover { color: black; background-color: white; }
-table.vocabulary input[type=text] { width: 100px; }
+table.vocabulary input[type=text] { width: 200px; }
