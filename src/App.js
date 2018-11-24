@@ -5,7 +5,7 @@ import WordNotFound         from './WordNotFound';
 
 export default class App extends Component {
     state = {
-        currentWord: 150
+        currentWord: 0
     }
 
     render() {
@@ -13,7 +13,11 @@ export default class App extends Component {
         let content = null;
         
         if (dataVocabulary[currentWord]) {
-            content = <WordCard ukr={'ukr'} eng={'eng'} type={'type'} />
+            content = <WordCard 
+                ukr={dataVocabulary[currentWord].ukr} 
+                eng={dataVocabulary[currentWord].eng}
+                type={dataVocabulary[currentWord].type} 
+            />
         } else {
             content = <WordNotFound />
         }
