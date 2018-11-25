@@ -5,21 +5,26 @@ import WordNotFound         from './WordNotFound';
 
 export default class App extends Component {
     state = {
-        currentWord: 0,
+        currentWord: dataVocabulary.length - 1,
         incorrectTranslation: false
     }
 
     onSubmitWordCardHandler = event => {
         event.preventDefault();
-        
-        const wordByEnglish = dataVocabulary[this.state.currentWord].eng;
-        const wordEntered   = event.target.translation.value; 
+
+        const {currentWord} = this.state;
+        const nextWord      = currentWord - 1;
+        const wordByEnglish = dataVocabulary[currentWord].eng;
+        const wordEntered   = event.target.translation.value;
         
         if (wordEntered === wordByEnglish) {
-            console.log('OK');
+            this.setState({ 
+                currentWord: nextWord
+            });
         } else {
-            console.log('WRONG !');
-            this.setState({ incorrectTranslation : true })
+            this.setState({ 
+                incorrectTranslation: true 
+            });
         }
     }
 
