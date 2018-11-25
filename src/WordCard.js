@@ -6,6 +6,7 @@ const WordCard = (props) => (
         <div>{props.ukr}</div>
         <div>{props.eng}</div>
         <div>{props.type}</div>
+        <div><input type="text" onChange={props.changed} /></div>
     </div>
 )
 

@@ -8,6 +8,10 @@ export default class App extends Component {
         currentWord: 0
     }
 
+    translationChangedHandler = event => {
+        console.log(event.target.value);
+    }
+
     render() {
         const { currentWord } = this.state
         let content = null;
@@ -17,6 +21,7 @@ export default class App extends Component {
                 ukr={dataVocabulary[currentWord].ukr} 
                 eng={dataVocabulary[currentWord].eng}
                 type={dataVocabulary[currentWord].type} 
+                changed={this.translationChangedHandler}
             />
         } else {
             content = <WordNotFound />
