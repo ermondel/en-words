@@ -5,7 +5,8 @@ import WordNotFound         from './WordNotFound';
 
 export default class App extends Component {
     state = {
-        currentWord: 0
+        currentWord: 0,
+        incorrectTranslation: false
     }
 
     onSubmitWordCardHandler = event => {
@@ -18,6 +19,7 @@ export default class App extends Component {
             console.log('OK');
         } else {
             console.log('WRONG !');
+            this.setState({ incorrectTranslation : true })
         }
     }
 
@@ -31,6 +33,7 @@ export default class App extends Component {
                 eng={dataVocabulary[currentWord].eng}
                 type={dataVocabulary[currentWord].type} 
                 onSubmit={this.onSubmitWordCardHandler}
+                incorrect={this.state.incorrectTranslation}
             />
         } else {
             content = <WordNotFound />
