@@ -8,8 +8,9 @@ export default class App extends Component {
         currentWord: 0
     }
 
-    translationChangedHandler = event => {
-        console.log(event.target.value);
+    onSubmitWordCardHandler = event => {
+        event.preventDefault();
+        console.log(event.target.translation.value);
     }
 
     render() {
@@ -21,7 +22,7 @@ export default class App extends Component {
                 ukr={dataVocabulary[currentWord].ukr} 
                 eng={dataVocabulary[currentWord].eng}
                 type={dataVocabulary[currentWord].type} 
-                changed={this.translationChangedHandler}
+                onSubmit={this.onSubmitWordCardHandler}
             />
         } else {
             content = <WordNotFound />
