@@ -1,7 +1,8 @@
 import React from 'react'
+import './WordCard.css';
 
 const WordCard = (props) => (
-    <div>
+    <div className="WordCard">
         <div>{props.ukr}</div>
         <div>{props.eng}</div>
         <div>{props.type}</div>
