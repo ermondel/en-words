@@ -42,11 +42,13 @@ export default class App extends Component {
         
         if (dataVocabulary[currentWord]) {
             content = <WordCard 
-                ukr={dataVocabulary[currentWord].ukr} 
-                eng={dataVocabulary[currentWord].eng}
-                type={dataVocabulary[currentWord].type} 
-                onSubmit={this.onSubmitWordCardHandler}
-                incorrect={this.state.incorrectTranslation}
+                ukr       = {dataVocabulary[currentWord].ukr}
+                eng       = {dataVocabulary[currentWord].eng}
+                type      = {dataVocabulary[currentWord].type}
+                pos       = {dataVocabulary.length - currentWord}
+                total     = {dataVocabulary.length}
+                onSubmit  = {this.onSubmitWordCardHandler}
+                incorrect = {this.state.incorrectTranslation}
             />
         } else if (currentWord < 0) {
             content = <EndOfWords restart={this.restart} />

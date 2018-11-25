@@ -3,6 +3,7 @@ import './WordCard.css';
 
 const WordCard = (props) => (
     <div className="WordCard">
+        <div>{props.pos} / {props.total}</div>
         <div>{props.ukr}</div>
         <div>{props.eng}</div>
         <div>{props.type}</div>
