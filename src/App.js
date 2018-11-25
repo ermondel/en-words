@@ -10,7 +10,15 @@ export default class App extends Component {
 
     onSubmitWordCardHandler = event => {
         event.preventDefault();
-        console.log(event.target.translation.value);
+        
+        const wordByEnglish = dataVocabulary[this.state.currentWord].eng;
+        const wordEntered   = event.target.translation.value; 
+        
+        if (wordEntered === wordByEnglish) {
+            console.log('OK');
+        } else {
+            console.log('WRONG !');
+        }
     }
 
     render() {
