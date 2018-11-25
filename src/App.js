@@ -29,6 +29,12 @@ export default class App extends Component {
         }
     }
 
+    restart = () => {
+        this.setState({
+            currentWord: dataVocabulary.length - 1
+        });
+    }
+
     render() {
         const { currentWord } = this.state
         let content = null;
@@ -42,7 +48,7 @@ export default class App extends Component {
                 incorrect={this.state.incorrectTranslation}
             />
         } else if (currentWord < 0) {
-            content = <EndOfWords />
+            content = <EndOfWords restart={this.restart} />
         } else {
             content = <WordNotFound />
         }

@@ -1,8 +1,8 @@
 import React from 'react'
 
-const EndOfWords = () => (
+const EndOfWords = (props) => (
     <div>
-        You have reached the end of the word list. 
+        You have reached the end of the word list. <button onClick={props.restart}>Restart</button>
     </div>
 )
 
