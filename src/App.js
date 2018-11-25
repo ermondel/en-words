@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import dataVocabulary       from './dataVocabulary';
 import WordCard             from './WordCard';
 import WordNotFound         from './WordNotFound';
+import EndOfWords           from './EndOfWords'
 
 export default class App extends Component {
     state = {
@@ -40,6 +41,8 @@ export default class App extends Component {
                 onSubmit={this.onSubmitWordCardHandler}
                 incorrect={this.state.incorrectTranslation}
             />
+        } else if (currentWord < 0) {
+            content = <EndOfWords />
         } else {
             content = <WordNotFound />
         }
