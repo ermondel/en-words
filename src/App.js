@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import dataVocabulary       from './dataVocabulary';
 import WordCard             from './WordCard';
 import WordNotFound         from './WordNotFound';
-import EndOfWords           from './EndOfWords'
+import EndOfWords           from './EndOfWords';
+import './App.css';
 
 export default class App extends Component {
     state = {
