@@ -8,7 +8,8 @@ import './App.css';
 export default class App extends Component {
     state = {
         currentWord: dataVocabulary.length - 1,
-        incorrectTranslation: false
+        incorrectTranslation: false,
+        value: ""
     }
 
     onSubmitWordCardHandler = event => {
@@ -21,11 +22,14 @@ export default class App extends Component {
         
         if (wordEntered === wordByEnglish) {
             this.setState({ 
-                currentWord: nextWord
+                incorrectTranslation: false,
+                currentWord: nextWord,
+                value: ""
             });
         } else {
             this.setState({ 
-                incorrectTranslation: true 
+                incorrectTranslation: true,
+                value: wordEntered,
             });
         }
     }
@@ -34,6 +38,10 @@ export default class App extends Component {
         this.setState({
             currentWord: dataVocabulary.length - 1
         });
+    }
+
+    changed = event => {
+        this.setState({ value: event.target.value })
     }
 
     render() {
@@ -49,6 +57,8 @@ export default class App extends Component {
                 total     = {dataVocabulary.length}
                 onSubmit  = {this.onSubmitWordCardHandler}
                 incorrect = {this.state.incorrectTranslation}
+                value     = {this.state.value}
+                changed   = {this.changed}
             />
         } else if (currentWord < 0) {
             content = <EndOfWords restart={this.restart} />
