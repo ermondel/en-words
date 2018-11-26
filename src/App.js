@@ -7,7 +7,7 @@ import './App.css';
 
 export default class App extends Component {
     state = {
-        currentWord: dataVocabulary.length - 1,
+        currentWordID: dataVocabulary.length - 1,
         incorrectTranslation: false,
         value: ""
     }
@@ -15,15 +15,15 @@ export default class App extends Component {
     onSubmitWordCardHandler = event => {
         event.preventDefault();
 
-        const {currentWord} = this.state;
-        const nextWord      = currentWord - 1;
-        const wordByEnglish = dataVocabulary[currentWord].eng;
+        const {currentWordID} = this.state;
+        const nextWord      = currentWordID - 1;
+        const wordByEnglish = dataVocabulary[currentWordID].eng;
         const wordEntered   = event.target.translation.value;
         
         if (wordEntered === wordByEnglish) {
             this.setState({ 
                 incorrectTranslation: false,
-                currentWord: nextWord,
+                currentWordID: nextWord,
                 value: ""
             });
         } else {
@@ -36,7 +36,7 @@ export default class App extends Component {
 
     restart = () => {
         this.setState({
-            currentWord: dataVocabulary.length - 1
+            currentWordID: dataVocabulary.length - 1
         });
     }
 
@@ -45,22 +45,22 @@ export default class App extends Component {
     }
 
     render() {
-        const { currentWord } = this.state
+        const { currentWordID } = this.state
         let content = null;
         
-        if (dataVocabulary[currentWord]) {
+        if (dataVocabulary[currentWordID]) {
             content = <WordCard 
-                ukr       = {dataVocabulary[currentWord].ukr}
-                eng       = {dataVocabulary[currentWord].eng}
-                type      = {dataVocabulary[currentWord].type}
-                pos       = {dataVocabulary.length - currentWord}
+                ukr       = {dataVocabulary[currentWordID].ukr}
+                eng       = {dataVocabulary[currentWordID].eng}
+                type      = {dataVocabulary[currentWordID].type}
+                pos       = {dataVocabulary.length - currentWordID}
                 total     = {dataVocabulary.length}
                 onSubmit  = {this.onSubmitWordCardHandler}
                 incorrect = {this.state.incorrectTranslation}
                 value     = {this.state.value}
                 changed   = {this.changed}
             />
-        } else if (currentWord < 0) {
+        } else if (currentWordID < 0) {
             content = <EndOfWords restart={this.restart} />
         } else {
             content = <WordNotFound />
