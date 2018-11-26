@@ -11,7 +11,7 @@ const WordCard = (props) => (
             <input 
                 type="text" 
                 name="translation" 
-                className={props.incorrect ? "translation wrong" : "translation"}
+                className={props.incorrect ? "translation incorrect" : "translation"}
                 value={props.value}
                 onChange={props.changed}
             />
