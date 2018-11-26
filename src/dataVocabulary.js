@@ -51,7 +51,7 @@ export default [
 			ukr: "припустимо",
 			eng: "suppose",
 			id : 9,
-			type: 'verb,
+			type: 'verb',
 		},
 		{
 			ukr: "піти у відставку",
