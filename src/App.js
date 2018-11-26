@@ -41,7 +41,10 @@ export default class App extends Component {
     }
 
     changed = event => {
-        this.setState({ value: event.target.value })
+        this.setState({ 
+            value: event.target.value,
+            incorrectTranslation: false
+        })
     }
 
     render() {
