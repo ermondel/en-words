@@ -1,6 +1,13 @@
-import React from 'react'
-import './WordCard.css';
+import React from 'react';
+import './style/WordCard.css';
 
+/**
+ * WordCard
+ * @param {*} props 
+ * ukr, type, eng, 
+ * incorrect, value, pos, total, 
+ * changed, onSubmit
+ */
 const WordCard = (props) => (
     <div className="WordCard">
         <div className="pos">{props.pos} / {props.total}</div>
