@@ -9,9 +9,9 @@ const App = () => (
             <header>
                 <nav>
                     <ul>
-                        <li><Link to="/">Home</Link></li>
-                        <li><Link to="/vocabulary/">Vocabulary</Link></li>
-                        <li><Link to="/sentence/">Sentence</Link></li>
+                        <li><Link to="/">home</Link> | </li>
+                        <li><Link to="/vocabulary/">vocabulary</Link> | </li>
+                        <li><Link to="/sentence/">sentence</Link></li>
                     </ul>
                 </nav>
             </header>

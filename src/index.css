@@ -1,1 +1,8 @@
 body { font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 16px; margin: 0; padding: 0; }
+
+header { margin: 15px auto 25px auto; width: 300px; }
+header nav { text-align: center; }
+header nav ul { margin: 0; padding: 0px; list-style-type: none; }
+header nav ul li { margin: 0; padding: 0px; display: inline; color: lightgray; }
+header nav ul li a { text-decoration: none; color: lightgray; }
+header nav ul li a:hover { color: teal; }
