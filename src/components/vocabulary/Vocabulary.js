@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import WordCard from './WordCard';
-import data     from './data-fixture';
+import data     from './data';
 import './style/Vocabulary.css';
 
 class Vocabulary extends Component {
