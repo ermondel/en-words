@@ -1,7 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-import Vocabulary from './components/vocabulary/Vocabulary'
-import Sentence from './components/sentence/Sentence';
+import Vocabulary from './components/vocabulary/Vocabulary';
+import Sentence   from './components/sentence/Sentence';
+import Home       from './components/home/Home';
 
 const App = () => (
     <Router>
@@ -16,13 +17,11 @@ const App = () => (
                 </nav>
             </header>
 
-            <Route path="/" exact component={Index} />
+            <Route path="/" exact component={Home} />
             <Route path="/vocabulary/" component={Vocabulary} />
             <Route path="/sentence/" component={Sentence} />
         </div>
     </Router>
 );
-
-const Index = () => <h2>Home</h2>;
 
 export default App;
