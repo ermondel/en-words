@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import data from './data-fixture';
 import './style/Sentence.css';
 
 class Sentence extends Component {
