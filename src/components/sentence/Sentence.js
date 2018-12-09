@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import SentenceCard from './SentenceCard';
 import data from './data-fixture';
 import './style/Sentence.css';
 
