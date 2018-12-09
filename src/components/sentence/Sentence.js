@@ -28,13 +28,25 @@ class Sentence extends Component {
                 changed   = {null}
             />
         } else if (index < 0) {
-            console.log('End of sentences');
+            this.forRender = <EndOfSentences restart={null} />
         } else {
-            console.log('Sentence not found');
+            this.forRender = <SentenceNotFound />
         }
 
         return (<div className="Sentence">{this.forRender}</div>)
     }
 }
+
+const EndOfSentences = (props) => (
+    <div className="message">
+        <h3>Task completed</h3>
+        <button onClick={props.restart}>Restart</button>
+    </div>
+)
+const SentenceNotFound = () => (
+    <div className="message">
+        <h3>Sentence not found</h3>
+    </div>
+)
 
 export default Sentence;
