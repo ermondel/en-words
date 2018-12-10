@@ -18,6 +18,28 @@ class Sentence extends Component {
         })
     }
 
+    onSubmitHandler = event => {
+        event.preventDefault();
+
+        let { index } = this.state;
+        let nextIndex = index - 1;
+        let sentenceByEnglish = data[index].eng;
+        let sentenceEntered = event.target.translation.value;
+
+        if (sentenceEntered === sentenceByEnglish) {
+            this.setState({
+                incorrect: false,
+                index: nextIndex,
+                value: ""
+            });
+        } else {
+            this.setState({
+                incorrect: true,
+                value: sentenceEntered
+            });
+        }
+    }
+
     onChangeHandler = event => {
         this.setState({
             value: event.target.value,
@@ -35,7 +57,7 @@ class Sentence extends Component {
                 type      = {data[index].type}
                 pos       = {data.length - index}
                 total     = {data.length}
-                onSubmit  = {null}
+                onSubmit  = {this.onSubmitHandler}
                 incorrect = {this.state.incorrect}
                 value     = {this.state.value}
                 changed   = {this.onChangeHandler}
