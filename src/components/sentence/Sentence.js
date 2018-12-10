@@ -12,6 +12,13 @@ class Sentence extends Component {
 
     forRender = null
 
+    onChangeHandler = event => {
+        this.setState({
+            value: event.target.value,
+            incorrect: false
+        })
+    }
+
     render() {
         let { index } = this.state;
 
@@ -25,7 +32,7 @@ class Sentence extends Component {
                 onSubmit  = {null}
                 incorrect = {this.state.incorrect}
                 value     = {this.state.value}
-                changed   = {null}
+                changed   = {this.onChangeHandler}
             />
         } else if (index < 0) {
             this.forRender = <EndOfSentences restart={null} />
