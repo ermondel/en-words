@@ -30,7 +30,8 @@ class Vocabulary extends Component {
             this.setState({ 
                 incorrect: false,
                 index: nextindex,
-                value: "" });
+                value: "" 
+            });
         } else {
             this.setState({ 
                 incorrect: true,
