@@ -12,6 +12,12 @@ class Sentence extends Component {
 
     forRender = null
 
+    onRestart = event => {
+        this.setState({
+            index: data.length - 1
+        })
+    }
+
     onChangeHandler = event => {
         this.setState({
             value: event.target.value,
@@ -35,7 +41,7 @@ class Sentence extends Component {
                 changed   = {this.onChangeHandler}
             />
         } else if (index < 0) {
-            this.forRender = <EndOfSentences restart={null} />
+            this.forRender = <EndOfSentences restart={this.onRestart} />
         } else {
             this.forRender = <SentenceNotFound />
         }
