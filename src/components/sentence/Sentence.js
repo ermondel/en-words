@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import SentenceCard from './SentenceCard';
-import data from './data-fixture';
+import data from './data';
 import './style/Sentence.css';
 
 class Sentence extends Component {
