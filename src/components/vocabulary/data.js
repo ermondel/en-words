@@ -81,7 +81,7 @@ export default [
 			ukr: "підліток",
 			eng: "adolescent",
 			id : 14,
-			type: 'noun / adjective',
+			type: 'noun, adjective',
 		},
 		{
 			ukr: "підліток",
@@ -111,13 +111,13 @@ export default [
 			ukr: "цикл",
 			eng: "cycle",
 			id : 19,
-			type: 'noun / verb',
+			type: 'noun, verb',
 		},
 		{
 			ukr: "функція",
 			eng: "function",
 			id : 20,
-			type: 'noun / verb',
+			type: 'noun, verb',
 		},
 		{
 			ukr: "зайнятий",
@@ -165,7 +165,7 @@ export default [
 			ukr: "добрий",
 			eng: "kind",
 			id : 28,
-			type: 'adjective / noun',
+			type: 'adjective, noun',
 		},
 		{
 			ukr: "доброзичливість",
@@ -231,7 +231,7 @@ export default [
 			ukr: "черга (BrE)",
 			eng: "queue",
 			id : 39,
-			type: 'noun / verb',
+			type: 'noun, verb',
 		},
 		{
 			ukr: "черга (AmE)",
@@ -243,7 +243,7 @@ export default [
 			ukr: "подяка",
 			eng: "thank",
 			id : 41,
-			type: 'noun / verb',
+			type: 'noun, verb',
 		},
 		{
 			ukr: "візок (BrE)",
@@ -291,7 +291,7 @@ export default [
 			ukr: "засмучений",
 			eng: "upset",
 			id : 49,
-			type: 'adjective / noun / verb',
+			type: 'adjective, noun, verb',
 		},
 		{
 			ukr: "розійтись",
@@ -930,7 +930,7 @@ export default [
 			type: null,
 		},
 		{
-			ukr: "брат / сестра",
+			ukr: "брат, сестра",
 			eng: "sibling",
 			id : 156,
 			type: null,
@@ -1755,7 +1755,7 @@ export default [
 			ukr: "рифма",
 			eng: "rhyme",
 			id : 293,
-			type: 'noun / verb',
+			type: 'noun, verb',
 		},
 		{
 			ukr: "обшарпаний",
@@ -1803,7 +1803,7 @@ export default [
 			ukr: "гра",
 			eng: "play",
 			id : 301,
-			type: 'noun / verb',
+			type: 'noun, verb',
 		},
 		{
 			ukr: "якість",
@@ -1974,16 +1974,16 @@ export default [
 			type: 'verb',
 		},
 		{
-			ukr: "перерва / розрив",
+			ukr: "перерва, розрив",
 			eng: "break",
 			id : 330,
-			type: 'noun / verb',
+			type: 'noun, verb',
 		},
 		{
-			ukr: "книга / замовляти",
+			ukr: "книга, замовляти",
 			eng: "book",
 			id : 331,
-			type: 'noun / verb',
+			type: 'noun, verb',
 		},
 		{
 			ukr: "пляжний курорт",
@@ -2031,7 +2031,7 @@ export default [
 			ukr: "хвалити",
 			eng: "praise",
 			id : 339,
-			type: 'noun / verb',
+			type: 'noun, verb',
 		},
 		{
 			ukr: "померти",
@@ -2067,7 +2067,7 @@ export default [
 			ukr: "шепіт",
 			eng: "whisper",
 			id : 345,
-			type: 'noun / verb',
+			type: 'noun, verb',
 		},
 		{
 			ukr: "середньовічний",
@@ -2172,13 +2172,13 @@ export default [
 			type: 'adjective',
 		},
 		{
-			ukr: "спорядження / споряджати",
+			ukr: "спорядження, споряджати",
 			eng: "outfit",
 			id : 363,
-			type: 'noun / verb',
+			type: 'noun, verb',
 		},
 		{
-			ukr: "нестандартно / орігінально",
+			ukr: "нестандартно, орігінально",
 			eng: "off the beaten track",
 			id : 364,
 			type: null,
@@ -2358,10 +2358,10 @@ export default [
 			type: null,
 		},
 		{
-			ukr: "виправлення / виправляти",
+			ukr: "виправлення, виправляти",
 			eng: "reclaim",
 			id : 394,
-			type: 'noun / verb',
+			type: 'noun, verb',
 		},
 		{
 			ukr: "взлітати",
@@ -2418,7 +2418,7 @@ export default [
 			type: null,
 		},
 		{
-			ukr: "дуже рідко / одного разу у голубому місяці",
+			ukr: "дуже рідко, одного разу у голубому місяці",
 			eng: "once in a blue moon",
 			id : 404,
 			type: null,
@@ -2448,10 +2448,10 @@ export default [
 			type: 'adjective',
 		},
 		{
-			ukr: "зубріння / зубрити",
+			ukr: "зубріння, зубрити",
 			eng: "swot",
 			id : 409,
-			type: 'noun / verb',
+			type: 'noun, verb',
 		},
 		{
 			ukr: "спокушати",
@@ -2472,7 +2472,7 @@ export default [
 			type: 'noun',
 		},
 		{
-			ukr: "пом'якшувати / їздити",
+			ukr: "пом'якшувати, їздити",
 			eng: "commute",
 			id : 413,
 			type: null,
@@ -2502,7 +2502,7 @@ export default [
 			type: 'noun',
 		},
 		{
-			ukr: "провулок / доріжка",
+			ukr: "провулок, доріжка",
 			eng: "lane",
 			id : 418,
 			type: 'noun',
@@ -2514,10 +2514,10 @@ export default [
 			type: 'noun',
 		},
 		{
-			ukr: "трамвай / їхати трамваєм",
+			ukr: "трамвай, їхати трамваєм",
 			eng: "tram",
 			id : 420,
-			type: 'noun / verb',
+			type: 'noun, verb',
 		},
 		{
 			ukr: "тролейбус",
@@ -2538,10 +2538,10 @@ export default [
 			type: 'verb',
 		},
 		{
-			ukr: "незручності / турбувати",
+			ukr: "незручності, турбувати",
 			eng: "inconvenience",
 			id : 424,
-			type: 'noun / verb',
+			type: 'noun, verb',
 		},
 		{
 			ukr: "огляд визначних пам'яток",
@@ -2562,7 +2562,7 @@ export default [
 			type: null,
 		},
 		{
-			ukr: "закінчувати / обмежувати",
+			ukr: "закінчувати, обмежувати",
 			eng: "terminate",
 			id : 428,
 			type: 'verb',
@@ -2586,7 +2586,7 @@ export default [
 			type: 'noun',
 		},
 		{
-			ukr: "продуктивно / єфективно",
+			ukr: "продуктивно, єфективно",
 			eng: "effectively",
 			id : 432,
 			type: 'adverb',
@@ -2670,7 +2670,7 @@ export default [
 			type: 'noun',
 		},
 		{
-			ukr: "вийти / виступити",
+			ukr: "вийти, виступити",
 			eng: "come out",
 			id : 446,
 			type: 'verb',
@@ -2691,13 +2691,13 @@ export default [
 			ukr: "страхування",
 			eng: "insurance",
 			id : 449,
-			type: 'noun / adjective',
+			type: 'noun, adjective',
 		},
 		{
-			ukr: "згадати / згадка",
+			ukr: "згадати, згадка",
 			eng: "mention",
 			id : 450,
-			type: 'verb / noun',
+			type: 'verb, noun',
 		},
 		{
 			ukr: "нестача",
@@ -2742,10 +2742,10 @@ export default [
 			type: null,
 		},
 		{
-			ukr: "тип / вводити",
+			ukr: "тип, вводити",
 			eng: "type",
 			id : 458,
-			type: 'noun / verb',
+			type: 'noun, verb',
 		},
 		{
 			ukr: "поле теми",
@@ -2796,10 +2796,10 @@ export default [
 			type: 'noun',
 		},
 		{
-			ukr: "відображення / відображати",
+			ukr: "відображення, відображати",
 			eng: "display",
 			id : 467,
-			type: 'noun / verb',
+			type: 'noun, verb',
 		},
 		{
 			ukr: "підключати",
@@ -2814,8 +2814,8 @@ export default [
 			type: null,
 		},
 		{
-			ukr: "увімкнути  /  вимкнути",
-			eng: "switch on / off",
+			ukr: "увімкнути ,  вимкнути",
+			eng: "switch on, off",
 			id : 470,
 			type: null,
 		},
@@ -2832,10 +2832,10 @@ export default [
 			type: 'noun',
 		},
 		{
-			ukr: "завантажити / завантаження",
+			ukr: "завантажити, завантаження",
 			eng: "download",
 			id : 473,
-			type: 'noun / verb',
+			type: 'noun, verb',
 		},
 		{
 			ukr: "дистанційне керування",
@@ -2856,10 +2856,10 @@ export default [
 			type: 'verb',
 		},
 		{
-			ukr: "передача / передавати",
+			ukr: "передача, передавати",
 			eng: "transfer",
 			id : 477,
-			type: 'noun / verb',
+			type: 'noun, verb',
 		},
 		{
 			ukr: "планшет",
@@ -2892,7 +2892,7 @@ export default [
 			type: null,
 		},
 		{
-			ukr: "випадок / чохол",
+			ukr: "випадок, чохол",
 			eng: "case",
 			id : 483,
 			type: 'noun',
@@ -2940,10 +2940,10 @@ export default [
 			type: 'noun',
 		},
 		{
-			ukr: "розпад / розпадатися",
+			ukr: "розпад, розпадатися",
 			eng: "decay",
 			id : 491,
-			type: 'noun / verb',
+			type: 'noun, verb',
 		},
 		{
 			ukr: "тривіальний",
@@ -2985,7 +2985,7 @@ export default [
 			ukr: "прокручування",
 			eng: "scroll",
 			id : 498,
-			type: 'noun / verb',
+			type: 'noun, verb',
 		},
 		{
 			ukr: "збільшити",
@@ -3054,10 +3054,10 @@ export default [
 			type: 'verb',
 		},
 		{
-			ukr: "телефонна трубка / набирати вручну",
+			ukr: "телефонна трубка, набирати вручну",
 			eng: "handset",
 			id : 510,
-			type: 'noun / verb',
+			type: 'noun, verb',
 		},
 		{
 			ukr: "екран",
@@ -3084,16 +3084,16 @@ export default [
 			type: 'noun',
 		},
 		{
-			ukr: "ярлик / скорочений",
+			ukr: "ярлик, скорочений",
 			eng: "shortcut",
 			id : 515,
-			type: 'noun / adjective',
+			type: 'noun, adjective',
 		},
 		{
 			ukr: "сміття",
 			eng: "trash",
 			id : 516,
-			type: 'noun / verb',
+			type: 'noun, verb',
 		},
 		{
 			ukr: "монітор",
@@ -3114,7 +3114,7 @@ export default [
 			type: 'noun',
 		},
 		{
-			ukr: "клавіша / ключ",
+			ukr: "клавіша, ключ",
 			eng: "key",
 			id : 520,
 			type: 'noun',
@@ -3132,10 +3132,10 @@ export default [
 			type: 'verb',
 		},
 		{
-			ukr: "заряд / заряджати",
+			ukr: "заряд, заряджати",
 			eng: "charge",
 			id : 523,
-			type: 'noun / verb',
+			type: 'noun, verb',
 		},
 		{
 			ukr: "дисковод компакт-дисків",
@@ -3223,10 +3223,10 @@ export default [
 			type: 'adjective',
 		},
 		{
-			ukr: "теперішній час / у наші дні",
+			ukr: "теперішній час, у наші дні",
 			eng: "nowadays",
 			id : 538,
-			type: 'noun / adverb',
+			type: 'noun, adverb',
 		},
 		{
 			ukr: "вдаватися",
@@ -3301,10 +3301,10 @@ export default [
 			type: null,
 		},
 		{
-			ukr: "робочий стіл / настільний",
+			ukr: "робочий стіл, настільний",
 			eng: "desktop",
 			id : 551,
-			type: 'noun / adjective',
+			type: 'noun, adjective',
 		},
 		// // //
 		{
@@ -3326,13 +3326,13 @@ export default [
 			type: 'virus type',
 		},
 		{
-			ukr: "передбачити / очікувати",
+			ukr: "передбачити, очікувати",
 			eng: "anticipate",
 			id : 555,
 			type: 'verb',
 		},
 		{
-			ukr: "пункт / деталь",
+			ukr: "пункт, деталь",
 			eng: "item",
 			id : 556,
 			type: 'noun',
@@ -3350,7 +3350,7 @@ export default [
 			type: 'verb',
 		},
 		{
-			ukr: "новітній / сучасний",
+			ukr: "новітній, сучасний",
 			eng: "state-of-the-art",
 			id : 559,
 			type: 'adjective',
@@ -3374,10 +3374,10 @@ export default [
 			type: 'noun',
 		},
 		{
-			ukr: "боротьба / боротися",
+			ukr: "боротьба, боротися",
 			eng: "struggle",
 			id : 563,
-			type: 'noun / verb',
+			type: 'noun, verb',
 		},
 		{
 			ukr: "конкурентна перевага",
@@ -3404,7 +3404,7 @@ export default [
 			type: 'noun',
 		},
 		{
-			ukr: "приголомшливий / нестійкий",
+			ukr: "приголомшливий, нестійкий",
 			eng: "staggering",
 			id : 568,
 			type: 'adjective',
@@ -3416,10 +3416,10 @@ export default [
 			type: 'adjective',
 		},
 		{
-			ukr: "запах / учути",
+			ukr: "запах, учути",
 			eng: "scent",
 			id : 570,
-			type: "noun / verb",
+			type: "noun, verb",
 		},
 		{
 			ukr: "несправність",
@@ -3434,10 +3434,10 @@ export default [
 			type: 'adjective',
 		},
 		{
-			ukr: "високотехнологічний / сучасна технологія",
+			ukr: "високотехнологічний, сучасна технологія",
 			eng: "high tech",
 			id : 573,
-			type: 'adjective / noun',
+			type: 'adjective, noun',
 		},
 		{
 			ukr: "надлишок багажу",
