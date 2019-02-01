@@ -179,4 +179,65 @@ export default [
 			id : 30,
 			type: 'present perfect',
 		},
+		// // //
+		{
+			ukr: "Якщо ви будете наполегливо навчатись, ви пройдете всі іспити.",
+			eng: "If you study hard, you will pass all of the exams.",
+			id : 31,
+			type: 'first conditional',
+		},
+		{
+			ukr: "Я допоможу вам полагодити машину, якщо ви не будете знати що робити.",
+			eng: "I will help you to fix the car if you don't know what to do.",
+			id : 32,
+			type: 'first conditional',
+		},
+		{
+			ukr: "Якщо ви не підете до лікаря, ви будете мати серйозні проблеми.",
+			eng: "If you don't go to a doctor, you will have serious problems.",
+			id : 33,
+			type: 'first conditional',
+		},
+		{
+			ukr: "Якщо вам потрібно зробити покупки, я допоможу вам носити сумки.",
+			eng: "If you need to do the shopping, I will help you to carry the bags.",
+			id : 34,
+			type: 'first conditional',
+		},
+		{
+			ukr: "Якщо ви не поспішите, ми пропустимо літак.",
+			eng: "If you don't hurry, we will miss the plane.",
+			id : 35,
+			type: 'first conditional',
+		},
+		{
+			ukr: "Ти допоможеш мені, якщо я не зрозумію завдання?",
+			eng: "Will you help me if I don't understand the task?",
+			id : 36,
+			type: 'first conditional',
+		},
+		{
+			ukr: "Ви витратите багато грошей, якщо ви зподорожуєте до Майорки у відпустку.",
+			eng: "You will spend a lot of money if you travel to Majorca on holiday.",
+			id : 37,
+			type: 'first conditional',
+		},
+		{
+			ukr: "Якщо ви не заощадите гроші, ви не підете у відпустку.",
+			eng: "If you don't save money, you won't go on holiday.",
+			id : 38,
+			type: 'first conditional',
+		},
+		{
+			ukr: "Ти зателефонуєш мені, якщо ти знайдеш ключі вдома?",
+			eng: "Will you call me if you find the keys at home?",
+			id : 39,
+			type: 'first conditional',
+		},
+		{
+			ukr: "Якщо погода буде приємна, ми підемо в плавання.",
+			eng: "If the weather is nice, we will go sailing.",
+			id : 40,
+			type: 'first conditional',
+		},
 ];
