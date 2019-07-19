@@ -45,7 +45,7 @@ class App extends Component {
             <div>
                 <WordToTranslate
                     word={ this.currentWord }
-                    highlight={ this.wordСorrectly } 
+                    highlight={ this.state.wordСorrectly } 
                 />
                 <UserInput
                     word={ this.state.wordInput }
