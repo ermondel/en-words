@@ -37,11 +37,21 @@ class App extends Component {
     }
 
     onShowAnswerClick = () => {
-        console.log('onShowAnswerClick');
+        this.setState(() => ({ showAnswer: true }));
+    }
+
+    onButtonNextClick = () => {
+        this.setState(prevState => ({ 
+            wordСorrectly: false, 
+            wordIndex: prevState.wordIndex + 1,
+            wordInput: '',
+            showAnswer: false,
+            wordsCounter: prevState.wordsCounter + 1
+        }));
     }
 
     render() {
-        return(
+        return this.state.wordsCounter < this.state.wordsList.length ? (
             <div>
                 <WordToTranslate
                     word={ this.currentWord }
@@ -59,10 +69,11 @@ class App extends Component {
                     wordСorrectly={ this.state.wordСorrectly } 
                     onShowAnswerClick={ this.onShowAnswerClick }
                     totalWords={ this.state.wordsList.length }
-                    currentPosition={ this.state.wordIndex + 1 }
+                    currentPosition={ this.state.wordsCounter + 1 }
+                    onButtonNextClick={ this.onButtonNextClick }
                 />
             </div>
-        );
+        ) : <p>End</p>;
     }
 }
 
