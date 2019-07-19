@@ -10,7 +10,6 @@ class App extends Component {
         wordСorrectly: false,
         wordIndex: 0,
         wordInput: '',
-        wordAnswer: '',
         showAnswer: false,
         wordsCounter: 0
     }
@@ -20,12 +19,21 @@ class App extends Component {
         return currentWord ? currentWord.ru : '';
     }
 
-    onUserInputChange = (event) => {
-        console.log('onUserInputChange');
+    get wordAnswer() {
+        const currentWord = this.state.wordsList[this.state.wordIndex];
+        return currentWord ? currentWord.en : '';
     }
 
-    onUserInputFocus = (event) => {
-        console.log('onUserInputFocus');
+    onUserInputChange = event => {
+        const currentWord   = this.state.wordsList[this.state.wordIndex];
+        const wordInput     = event.target.value;
+        const wordСorrectly = currentWord && currentWord.en && currentWord.en === wordInput;
+
+        this.setState(() => ({ wordInput, wordСorrectly }));
+    }
+
+    onUserInputFocus = () => {
+        this.setState(() => ({ showAnswer: false }));
     }
 
     onShowAnswerClick = () => {
@@ -41,7 +49,7 @@ class App extends Component {
                 />
                 <UserInput
                     word={ this.state.wordInput }
-                    answer={ this.state.wordAnswer }
+                    answer={ this.wordAnswer }
                     showAnswer={ this.state.showAnswer }
                     onChange= { this.onUserInputChange }
                     onFocus={ this.onUserInputFocus }

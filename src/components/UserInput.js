@@ -1,8 +1,12 @@
 import React from 'react';
 
-const UserInput = () => (
+const UserInput = props => (
     <div>
-        User input
+        <textarea 
+            value={ props.showAnswer ? props.answer : props.word } 
+            onChange={ props.onChange } 
+            onFocus={ props.onFocus }
+        ></textarea>
     </div>
 );
 
