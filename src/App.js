@@ -53,6 +53,7 @@ class App extends Component {
                     showAnswer={ this.state.showAnswer }
                     onChange= { this.onUserInputChange }
                     onFocus={ this.onUserInputFocus }
+                    wordСorrectly={ this.state.wordСorrectly } 
                 />
                 <Toolbar
                     wordСorrectly={ this.state.wordСorrectly } 
