@@ -4,7 +4,7 @@ import UserInput from './components/UserInput';
 import Toolbar from './components/Toolbar';
 import DeadEnd from './components/DeadEnd';
 import './styles/styles.scss';
-import words from './tests/fixtures/words';
+import words from './dictionaries/base';
 
 class App extends Component {
     constructor(props) {
