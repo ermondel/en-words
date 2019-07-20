@@ -1,8 +1,8 @@
 import React from 'react';
 
 const Toolbar = props => (
-    <div>
-        <div>
+    <div className="Toolbar">
+        <div className="tools">
             <div>{ props.currentPosition }/{ props.totalWords }</div>
             <div>
                 <button 
@@ -12,7 +12,7 @@ const Toolbar = props => (
                 >answer</button>
             </div>
         </div>
-        <div>
+        <div className="next">
             <p>
                 <button 
                     disabled={ !(props.wordСorrectly) } 

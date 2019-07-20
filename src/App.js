@@ -3,6 +3,7 @@ import WordToTranslate from './components/WordToTranslate';
 import UserInput from './components/UserInput';
 import Toolbar from './components/Toolbar';
 import DeadEnd from './components/DeadEnd';
+import './styles/styles.scss';
 import words from './tests/fixtures/words';
 
 class App extends Component {
@@ -75,35 +76,41 @@ class App extends Component {
     }
 
     render() {
-        return this.state.wordsCounter < this.state.wordsList.length ? (
-            <div>
-                <WordToTranslate
-                    word={ this.currentWord }
-                    highlight={ this.state.wordСorrectly } 
+        return (
+            <div className="App">
+            {
+                this.state.wordsCounter < this.state.wordsList.length ? (
+                    <div className="workspace">
+                        <WordToTranslate
+                            word={ this.currentWord }
+                            highlight={ this.state.wordСorrectly } 
+                        />
+                        <UserInput
+                            word={ this.state.wordInput }
+                            answer={ this.wordAnswer }
+                            showAnswer={ this.state.showAnswer }
+                            onChange= { this.onUserInputChange }
+                            onFocus={ this.onUserInputFocus }
+                            wordСorrectly={ this.state.wordСorrectly } 
+                            refUserInput={ this.refUserInput }
+                        />
+                        <Toolbar
+                            wordСorrectly={ this.state.wordСorrectly } 
+                            onShowAnswerClick={ this.onShowAnswerClick }
+                            totalWords={ this.state.wordsList.length }
+                            currentPosition={ this.state.wordsCounter + 1 }
+                            onButtonNextClick={ this.onButtonNextClick }
+                            refButtonNext={ this.refButtonNext }
+                        />
+                    </div>
+                ) : <DeadEnd 
+                    wordsListLength = { this.state.wordsList.length } 
+                    onReloadClick = { this.onReloadClick }
                 />
-                <UserInput
-                    word={ this.state.wordInput }
-                    answer={ this.wordAnswer }
-                    showAnswer={ this.state.showAnswer }
-                    onChange= { this.onUserInputChange }
-                    onFocus={ this.onUserInputFocus }
-                    wordСorrectly={ this.state.wordСorrectly } 
-                    refUserInput={ this.refUserInput }
-                />
-                <Toolbar
-                    wordСorrectly={ this.state.wordСorrectly } 
-                    onShowAnswerClick={ this.onShowAnswerClick }
-                    totalWords={ this.state.wordsList.length }
-                    currentPosition={ this.state.wordsCounter + 1 }
-                    onButtonNextClick={ this.onButtonNextClick }
-                    refButtonNext={ this.refButtonNext }
-                />
+            }
             </div>
-        ) : <DeadEnd 
-            wordsListLength = { this.state.wordsList.length } 
-            onReloadClick = { this.onReloadClick }
-        />;
+        );
     }
-}
+};
 
 export default App;

@@ -1,7 +1,7 @@
 import React from 'react';
 
 const DeadEnd = props => (
-    <div>
+    <div className="DeadEnd">
         {
             props.wordsListLength ? 
                 <div>

@@ -14,7 +14,7 @@ const UserInput = props => {
                     styles.default;
     
     return (
-        <div>
+        <div className="UserInput">
             <textarea 
                 value={ props.showAnswer ? props.answer : props.word } 
                 onChange={ props.onChange } 

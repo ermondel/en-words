@@ -1,0 +1,12 @@
+.App { width: 60%; margin:  0 auto; }
+
+.workspace { display: flex; flex-wrap: wrap; }
+.WordToTranslate { width: 50%; }
+.UserInput { width: 50%; }
+.UserInput textarea { width: 98%; height: 50px; }
+.Toolbar { width: 100%; }
+
+.Toolbar .tools { display: flex; justify-content: space-between; }
+.Toolbar .next { text-align: center; }
+
+.DeadEnd { text-align: center; }

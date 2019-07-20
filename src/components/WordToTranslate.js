@@ -4,7 +4,7 @@ const defaultStyle = { color: 'black' };
 const highlightStyle = { color: 'green' };
 
 const WordToTranslate = props => (
-    <div style={ props.highlight ? highlightStyle : defaultStyle }>
+    <div className="WordToTranslate" style={ props.highlight ? highlightStyle : defaultStyle }>
         { props.word }
     </div>
 );
