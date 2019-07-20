@@ -20,6 +20,8 @@ const UserInput = props => {
                 onChange={ props.onChange } 
                 onFocus={ props.onFocus } 
                 style={ style }
+                ref={ props.refUserInput }
+                tabIndex={0}
             ></textarea>
         </div>
     );

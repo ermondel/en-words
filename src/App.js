@@ -5,6 +5,13 @@ import Toolbar from './components/Toolbar';
 import words from './tests/fixtures/words';
 
 class App extends Component {
+    constructor(props) {
+        super(props);
+
+        this.refButtonNext = React.createRef();
+        this.refUserInput = React.createRef();
+    }
+
     state = {
         wordsList: words,
         wordСorrectly: false,
@@ -29,6 +36,11 @@ class App extends Component {
         const wordInput     = event.target.value;
         const wordСorrectly = currentWord && currentWord.en && currentWord.en === wordInput;
 
+        if (wordСorrectly) {
+            const buttonNext = this.refButtonNext.current;
+            setTimeout(() => buttonNext.focus(), 1);
+        }
+
         this.setState(() => ({ wordInput, wordСorrectly }));
     }
 
@@ -48,6 +60,7 @@ class App extends Component {
             showAnswer: false,
             wordsCounter: prevState.wordsCounter + 1
         }));
+        this.refUserInput.current.focus();
     }
 
     render() {
@@ -64,6 +77,7 @@ class App extends Component {
                     onChange= { this.onUserInputChange }
                     onFocus={ this.onUserInputFocus }
                     wordСorrectly={ this.state.wordСorrectly } 
+                    refUserInput={ this.refUserInput }
                 />
                 <Toolbar
                     wordСorrectly={ this.state.wordСorrectly } 
@@ -71,6 +85,7 @@ class App extends Component {
                     totalWords={ this.state.wordsList.length }
                     currentPosition={ this.state.wordsCounter + 1 }
                     onButtonNextClick={ this.onButtonNextClick }
+                    refButtonNext={ this.refButtonNext }
                 />
             </div>
         ) : <p>End</p>;

@@ -8,6 +8,7 @@ const Toolbar = props => (
                 <button 
                     onClick={ props.onShowAnswerClick } 
                     disabled={ props.wordСorrectly }
+                    tabIndex={0}
                 >answer</button>
             </div>
         </div>
@@ -16,6 +17,8 @@ const Toolbar = props => (
                 <button 
                     disabled={ !(props.wordСorrectly) } 
                     onClick={ props.onButtonNextClick }
+                    ref={ props.refButtonNext }
+                    tabIndex={0}
                 >Next word</button>
             </p>
         </div>
