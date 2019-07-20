@@ -1,17 +1,28 @@
 import React from 'react';
 
-const defaultStyle = { color: 'black' };
-const highlightStyle = { color: 'green' };
-
-const UserInput = props => (
-    <div>
-        <textarea 
-            value={ props.showAnswer ? props.answer : props.word } 
-            onChange={ props.onChange } 
-            onFocus={ props.onFocus } 
-            style={ props.wordСorrectly ? highlightStyle : defaultStyle }
-        ></textarea>
-    </div>
-);
+const UserInput = props => {
+    const styles = {
+        soft:    { color: 'grey' },
+        light:   { color: 'green' },
+        default: { color: 'black' }
+    };
+    let style = 
+        props.showAnswer ? styles.soft 
+            : 
+                props.wordСorrectly ? styles.light 
+                : 
+                    styles.default;
+    
+    return (
+        <div>
+            <textarea 
+                value={ props.showAnswer ? props.answer : props.word } 
+                onChange={ props.onChange } 
+                onFocus={ props.onFocus } 
+                style={ style }
+            ></textarea>
+        </div>
+    );
+};
 
 export default UserInput;
