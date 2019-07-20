@@ -22,6 +22,7 @@ const UserInput = props => {
                 style={ style }
                 ref={ props.refUserInput }
                 tabIndex={0}
+                autoFocus
             ></textarea>
         </div>
     );

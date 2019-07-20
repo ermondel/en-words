@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import WordToTranslate from './components/WordToTranslate';
 import UserInput from './components/UserInput';
 import Toolbar from './components/Toolbar';
+import DeadEnd from './components/DeadEnd';
 import words from './tests/fixtures/words';
 
 class App extends Component {
@@ -63,6 +64,16 @@ class App extends Component {
         this.refUserInput.current.focus();
     }
 
+    onReloadClick = () => {
+        this.setState(() => ({
+            wordСorrectly: false,
+            wordIndex: 0,
+            wordInput: '',
+            showAnswer: false,
+            wordsCounter: 0
+        }));
+    }
+
     render() {
         return this.state.wordsCounter < this.state.wordsList.length ? (
             <div>
@@ -88,7 +99,10 @@ class App extends Component {
                     refButtonNext={ this.refButtonNext }
                 />
             </div>
-        ) : <p>End</p>;
+        ) : <DeadEnd 
+            wordsListLength = { this.state.wordsList.length } 
+            onReloadClick = { this.onReloadClick }
+        />;
     }
 }
 
