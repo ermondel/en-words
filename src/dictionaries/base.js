@@ -298,7 +298,7 @@ export default [
     { en: 'convince', ru: 'убеждать', type: 'verb' },
     { en: 'desperate', ru: 'отчаянный', type: 'adjective' },
     { en: 'discourage', ru: 'отговаривать, расхолаживать', type: 'verb' },
-    { en: 'down-to-earth', ru: 'приземленный, ', type: 'adjective' },
+    { en: 'down-to-earth', ru: 'приземленный', type: 'adjective' },
     { en: 'due to', ru: 'из-за, благодаря', type: 'pretext' },
     { en: 'fault', ru: 'вина, неисправность, придираться', type: 'noun/verb' },
     { en: 'foresee', ru: 'предвидеть', type: 'verb' },
