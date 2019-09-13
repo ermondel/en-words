@@ -68,5 +68,205 @@ export default [
     en: 'decrease',
     ru: 'сокращение, снижение, уменьшить, снизить',
     type: 'noun/verb'
+  },
+  {
+    en: 'make-up artist',
+    ru: 'гример, визажист',
+    type: 'noun'
+  },
+  {
+    en: 'shot',
+    ru: 'выстрел, удар, снимок, кадр',
+    type: 'noun'
+  },
+  {
+    en: 'release',
+    ru: 'освобождение, выпуск, релиз, выпустить',
+    type: 'noun/verb'
+  },
+  {
+    en: 'credits',
+    ru: 'титры, кредиты',
+    type: 'noun'
+  },
+  {
+    en: 'dubbed',
+    ru: 'дублированный, под названием',
+    type: 'adjective'
+  },
+  {
+    en: 'prequel',
+    ru: 'приквел',
+    type: 'noun'
+  },
+  {
+    en: 'sequel',
+    ru: 'продолжение, сиквел',
+    type: 'noun'
+  },
+  {
+    en: 'soundtrack',
+    ru: 'саундтрек',
+    type: 'noun'
+  },
+  {
+    en: 'subtitles',
+    ru: 'субтитры',
+    type: 'noun'
+  },
+  {
+    en: 'special effects',
+    ru: 'спецэффекты',
+    type: 'noun'
+  },
+  {
+    en: 'plot',
+    ru: 'сюжет, заговор, график, участок земли, замышлять',
+    type: 'noun/verb'
+  },
+  {
+    en: 'film review',
+    ru: 'рецензия на фильм',
+    type: 'phrase'
+  },
+  {
+    en: 'audience',
+    ru: 'аудитория',
+    type: 'noun'
+  },
+  {
+    en: 'stuntman',
+    ru: 'каскадер',
+    type: 'noun'
+  },
+  {
+    en: 'cast',
+    ru: 'кастинг, бросок, актеры, бросать',
+    type: 'noun/verb'
+  },
+  {
+    en: 'starring',
+    ru: 'в главных ролях',
+    type: 'phrase'
+  },
+  {
+    en: 'leading actor',
+    ru: 'главная роль, ведущая роль',
+    type: 'phrase'
+  },
+  {
+    en: 'supporting actor',
+    ru: 'актер второго плана',
+    type: 'phrase'
+  },
+  {
+    en: 'main character',
+    ru: 'главный герой',
+    type: 'phrase'
+  },
+  {
+    en: 'title role',
+    ru: 'заглавная роль',
+    type: 'phrase'
+  },
+  {
+    en: 'extra',
+    ru: 'дополнительный, дополнительно',
+    type: 'adjective/adverb'
+  },
+  {
+    en: 'cameraman',
+    ru: 'кинооператор, оператор',
+    type: 'noun'
+  },
+  {
+    en: 'producer',
+    ru: 'режиссер, продюсер, производитель',
+    type: 'noun'
+  },
+  {
+    en: 'script writer',
+    ru: 'сценарист',
+    type: 'noun'
+  },
+  {
+    en: 'scene designer',
+    ru: 'художник-декоратор',
+    type: 'noun'
+  },
+  {
+    en: 'costume designer',
+    ru: 'художник по костюмам',
+    type: 'noun'
+  },
+  {
+    en: 'trailer',
+    ru: 'трейлер, прицеп',
+    type: 'noun'
+  },
+  {
+    en: 'casting',
+    ru: 'кастинг, литье, отливка',
+    type: 'noun'
+  },
+  {
+    en: 'press conference',
+    ru: 'пресс-конференция',
+    type: 'noun'
+  },
+  {
+    en: 'premiere',
+    ru: 'премьера',
+    type: 'noun'
+  },
+  {
+    en: 'clapper',
+    ru: 'хлопалка, трещотка',
+    type: 'noun'
+  },
+  {
+    en: 'set',
+    ru: 'устанавливать, набор, комплект, устанавливать',
+    type: 'noun/verb/adjective'
+  },
+  {
+    en: 'science-fiction',
+    ru: 'научная фантастика',
+    type: 'noun'
+  },
+  {
+    en: 'fantasy',
+    ru: 'фантазия, фэнтези, фантазийный, фантазировать',
+    type: 'noun/verb/adjective'
+  },
+  {
+    en: 'action',
+    ru: 'действие, меры',
+    type: 'noun'
+  },
+  {
+    en: 'drama',
+    ru: 'драма, трагедия',
+    type: 'noun'
+  },
+  {
+    en: 'documentary',
+    ru: 'документальный фильм, документальный',
+    type: 'noun/adjective'
+  },
+  {
+    en: 'biopic',
+    ru: 'биографический фильм',
+    type: 'noun'
+  },
+  {
+    en: 'thriller',
+    ru: 'триллер',
+    type: 'noun'
+  },
+  {
+    en: 'romantic comedy',
+    ru: 'романтическая комедия',
+    type: 'phrase'
   }
 ];
