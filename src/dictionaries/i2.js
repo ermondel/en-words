@@ -268,5 +268,121 @@ export default [
     en: 'romantic comedy',
     ru: 'романтическая комедия',
     type: 'phrase'
+  },
+  //
+  {
+    en: 'however',
+    ru: 'тем не мение, однако, впрочем',
+    type: 'adverb, conjunction'
+  },
+  {
+    en: 'furthermore',
+    ru: 'кроме того, более того',
+    type: 'adverb'
+  },
+  {
+    en: 'for a start',
+    ru: 'для начала',
+    type: 'phrase'
+  },
+  {
+    en: 'finally',
+    ru: 'наконец, окончательно, в заключение',
+    type: 'adverb'
+  },
+  {
+    en: 'more',
+    ru: 'более, больше',
+    type: 'adverb'
+  },
+  {
+    en: 'on other hand',
+    ru: 'с другой стороны',
+    type: 'phrase'
+  },
+  {
+    en: 'nevertheless',
+    ru: 'тем не менее, однако',
+    type: 'adverb'
+  },
+  {
+    en: 'to sum up',
+    ru: 'подводя итог',
+    type: 'phrase'
+  },
+  {
+    en: 'encourage',
+    ru: 'поощрять',
+    type: 'verb'
+  },
+  {
+    en: 'discourage',
+    ru: 'отговаривать, сдерживать',
+    type: 'verb'
+  },
+  {
+    en: 'review',
+    ru: 'обзор, рассмотрение, рассматривать, рецензировать',
+    type: 'noun/verb'
+  },
+  {
+    en: 'genre',
+    ru: 'жанр, жанровый',
+    type: 'noun/adjective'
+  },
+  {
+    en: 'thread',
+    ru: 'нить',
+    type: 'noun'
+  },
+  {
+    en: 'frame per second (fps)',
+    ru: 'кадров в секунду',
+    type: 'phrase'
+  },
+  {
+    en: 'nozzle',
+    ru: 'сопло, насадка',
+    type: 'noun'
+  },
+  {
+    en: 'fan',
+    ru: 'фанат, вентилятор, раздувать, фанатский',
+    type: 'noun/verb/adjective'
+  },
+  {
+    en: 'splash',
+    ru: 'всплеск, фурор, плескать',
+    type: 'noun/verb'
+  },
+  {
+    en: 'mist',
+    ru: 'туман, мгла, затуманиваться',
+    type: 'noun/verb'
+  },
+  {
+    en: 'odour',
+    ru: 'запах, аромат',
+    type: 'noun'
+  },
+  {
+    en: 'scent',
+    ru: 'запах, нюх, след, учуять',
+    type: 'noun/verb'
+  },
+  {
+    en: 'reckon',
+    ru: 'считать, рассчитывать, думать',
+    type: 'verb'
+  },
+  {
+    en: 'in principle',
+    ru: 'в принципе',
+    type: 'phrase'
+  },
+  {
+    en: 'graphical',
+    ru: 'графический',
+    type: 'adjective'
   }
 ];
