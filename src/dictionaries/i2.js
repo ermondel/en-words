@@ -384,5 +384,95 @@ export default [
     en: 'graphical',
     ru: 'графический',
     type: 'adjective'
+  },
+  {
+    en: 'kudos',
+    ru: 'слава, престиж, почет',
+    type: 'noun'
+  },
+  {
+    en: 'has-been',
+    ru: '"бывший"',
+    type: 'phrase'
+  },
+  {
+    en: 'short-lived celebrity',
+    ru: 'мимолетная знаменитость',
+    type: 'phrase'
+  },
+  {
+    en: "be at one's peak",
+    ru: 'быть на пике',
+    type: 'phrase'
+  },
+  {
+    en: 'be a household name',
+    ru: 'быть именем нарицательным',
+    type: 'phrase'
+  },
+  {
+    en: 'become famous almost overnight',
+    ru: 'стать знаменитым за одну ночь',
+    type: 'phrase'
+  },
+  {
+    en: 'be thrown into the lights of stardom',
+    ru: 'быть брошенным в огни славы',
+    type: 'phrase'
+  },
+  {
+    en: 'be destined for stardom',
+    ru: 'быть предназначенным для славы',
+    type: 'phrase'
+  },
+  {
+    en: 'cavort',
+    ru: 'скакать',
+    type: 'verb'
+  },
+  {
+    en: 'episode',
+    ru: 'эпизод, серия',
+    type: 'noun'
+  },
+  {
+    en: 'lighting team',
+    ru: 'команда освещения',
+    type: 'phrase'
+  },
+  {
+    en: 'crew',
+    ru: 'экипаж, команда',
+    type: 'noun'
+  },
+  {
+    en: 'gossip',
+    ru: 'сплетни, сплетничать',
+    type: 'noun/verb'
+  },
+  {
+    en: 'be pregnant',
+    ru: 'быть беременной',
+    type: 'phrase'
+  },
+  {
+    en: 'stalk',
+    ru: 'преследовать, подкрадываться, стебель, ножка',
+    type: 'verb/noun'
+  },
+  {
+    en: 'humiliate',
+    ru: 'унижать',
+    type: 'verb'
+  },
+  {
+    en: 'bomb threat',
+    ru: 'угроза взрыва',
+    type: 'phrase'
+  },
+  {
+    en: 'appear',
+    ru: 'появляться, показываться, предстать',
+    type: 'verb'
   }
 ];
