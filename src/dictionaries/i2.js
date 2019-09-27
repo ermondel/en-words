@@ -474,5 +474,173 @@ export default [
     en: 'appear',
     ru: 'появляться, показываться, предстать',
     type: 'verb'
+  },
+  // -----------------------------------------------------------------------------------------
+  // -----------------------------------------------------------------------------------------
+  // -----------------------------------------------------------------------------------------
+  {
+    en: 'ache',
+    ru: 'боль, болеть',
+    type: 'noun/verb'
+  },
+  {
+    en: 'agony',
+    ru: 'агония, мука, страдание',
+    type: 'noun'
+  },
+  {
+    en: 'ailment',
+    ru: 'заболевание, болезнь, недуг',
+    type: 'noun'
+  },
+  {
+    en: 'allergic',
+    ru: 'аллергический',
+    type: 'adjective'
+  },
+  {
+    en: 'allergy',
+    ru: 'аллергия',
+    type: 'noun'
+  },
+  {
+    en: 'backache',
+    ru: 'боль в спине',
+    type: 'noun'
+  },
+  {
+    en: 'bladder',
+    ru: 'мочевой пузырь, пузырь',
+    type: 'noun'
+  },
+  {
+    en: 'cancer',
+    ru: 'рак',
+    type: 'noun'
+  },
+  {
+    en: 'chest',
+    ru: 'грудь, грудная клетка',
+    type: 'noun'
+  },
+  {
+    en: 'cough',
+    ru: 'кашель, кашлять',
+    type: 'noun/verb'
+  },
+  {
+    en: 'dehydrated',
+    ru: 'обезвоженный',
+    type: 'adjective'
+  },
+  {
+    en: 'dizzy',
+    ru: 'головокружение, кружится голова',
+    type: 'noun/adjective'
+  },
+  {
+    en: 'earache',
+    ru: 'ушная боль, боль в ухе',
+    type: 'noun'
+  },
+  {
+    en: 'fever',
+    ru: 'лихорадка, жар, температура',
+    type: 'noun'
+  },
+  {
+    en: 'headache',
+    ru: 'головная боль',
+    type: 'noun'
+  },
+  {
+    en: 'kidney',
+    ru: 'почка',
+    type: 'noun'
+  },
+  {
+    en: 'liver',
+    ru: 'печень',
+    type: 'noun'
+  },
+  {
+    en: 'lung',
+    ru: 'легкое',
+    type: 'non'
+  },
+  {
+    en: 'pill',
+    ru: 'пилюля, таблетка',
+    type: 'noun'
+  },
+  {
+    en: 'pollen',
+    ru: 'пыльца',
+    type: 'noun'
+  },
+  {
+    en: 'prescription',
+    ru: 'рецепт',
+    type: 'noun'
+  },
+  {
+    en: 'rash',
+    ru: 'сыпь, опрометчивый, необдуманный',
+    type: 'noun/adjective'
+  },
+  {
+    en: 'sinuses',
+    ru: 'пазухи, синусы',
+    type: 'noun'
+  },
+  {
+    en: 'sneeze',
+    ru: 'чихать, чиханье',
+    type: 'verb/noun'
+  },
+  {
+    en: 'sore',
+    ru: 'больной, боль, рана, больное место',
+    type: 'noun'
+  },
+  {
+    en: 'sore throat',
+    ru: 'больное горло',
+    type: 'phrase'
+  },
+  {
+    en: 'stomach ache',
+    ru: 'боль в животе, боль в желудке',
+    type: 'phrase'
+  },
+  {
+    en: 'thigh',
+    ru: 'бедро',
+    type: 'phrase'
+  },
+  {
+    en: 'thirsty',
+    ru: 'томимый жаждой',
+    type: 'adjective'
+  },
+  {
+    en: 'toe',
+    ru: 'палец на ноге',
+    type: 'noun'
+  },
+  {
+    en: 'toothache',
+    ru: 'зубная боль',
+    type: 'noun'
+  },
+  {
+    en: 'vein',
+    ru: 'вена',
+    type: 'noun'
+  },
+  {
+    en: 'wrist',
+    ru: 'запястье',
+    type: 'noun'
   }
 ];
