@@ -910,9 +910,6 @@ export default [
     ru: 'вывихнул',
     type: 'verb'
   },
-  // -----------------------------------------------------------------------------------------
-  // -----------------------------------------------------------------------------------------
-  // -----------------------------------------------------------------------------------------
   {
     en: 'pick words',
     ru: 'подбирать слова',
@@ -1007,5 +1004,153 @@ export default [
     en: 'draw',
     ru: 'рисовать, привлечь, ничья, жеребьевка',
     type: 'verb/noun'
+  },
+  // -----------------------------------------------------------------------------------------
+  // -----------------------------------------------------------------------------------------
+  // -----------------------------------------------------------------------------------------
+  {
+    en: 'assignment',
+    ru: 'задание, назначение',
+    type: 'noun'
+  },
+  {
+    en: 'experience in',
+    ru: 'опыт в',
+    type: 'phrase'
+  },
+  {
+    en: 'compare',
+    ru: 'сравнить',
+    type: 'verb'
+  },
+  {
+    en: 'share',
+    ru: 'поделиться, доля',
+    type: 'verb/noun'
+  },
+  {
+    en: 'afterschool club',
+    ru: 'послешкольный клуб',
+    type: 'phrase'
+  },
+  {
+    en: 'gap year',
+    ru: 'академический отпуск',
+    type: 'phrase'
+  },
+  {
+    en: 'vocational college',
+    ru: 'профессиональный колледж',
+    type: 'phrase'
+  },
+  {
+    en: 'PE (physical education)',
+    ru: 'физкультурное образование',
+    type: 'phrase'
+  },
+  {
+    en: 'sports science',
+    ru: 'спортивная наука',
+    type: 'phrase'
+  },
+  {
+    en: 'university science',
+    ru: 'университетская наука',
+    type: 'phrase'
+  },
+  {
+    en: 'nursery',
+    ru: 'детская, ясли',
+    type: 'noun'
+  },
+  {
+    en: 'primary school',
+    ru: 'начальная школа',
+    type: 'phrase'
+  },
+  {
+    en: 'boarding school',
+    ru: 'школа-интернат',
+    type: 'phrase'
+  },
+  {
+    en: 'secondary school',
+    ru: 'средняя школа',
+    type: 'phrase'
+  },
+  {
+    en: 'graduate',
+    ru: 'выпускник, диплом, заканчивать',
+    type: 'noun/verb'
+  },
+  {
+    en: 'schoolmate',
+    ru: 'школьный товарищ',
+    type: 'noun'
+  },
+  {
+    en: 'well-qualified',
+    ru: 'высококвалифицированный',
+    type: 'adjective'
+  },
+  {
+    en: 'be obliged to',
+    ru: 'быть обязан',
+    type: 'phrase'
+  },
+  {
+    en: 'enrol on a course',
+    ru: 'записаться на курс',
+    type: 'phrase'
+  },
+  {
+    en: 'oral exam',
+    ru: 'устный экзамен',
+    type: 'phrase'
+  },
+  {
+    en: 'written exam',
+    ru: 'письменный экзамен',
+    type: 'phrase'
+  },
+  {
+    en: 'certificate',
+    ru: 'сертификат, свидетельство, аттестат, сертифицировать',
+    type: 'noun/verb'
+  },
+  {
+    en: 'skill',
+    ru: 'навык',
+    type: 'noun'
+  },
+  {
+    en: 'exchange programme',
+    ru: 'программа по обмену',
+    type: 'phrase'
+  },
+  {
+    en: 'school uniform',
+    ru: 'школьная форма',
+    type: 'noun'
+  },
+  {
+    en: 'accommodation',
+    ru: 'жилье, размещение, проживание',
+    type: 'noun'
+  },
+  {
+    en: 'compulsory',
+    ru: 'обязательный, принудительный',
+    type: 'adjective'
+  },
+  {
+    en: 'attend',
+    ru: 'посещать, присутствовать, принять участие',
+    type: 'verb'
+  },
+  {
+    en: 'term',
+    ru: 'срок, термин, называть',
+    type: 'noun/verb'
   }
 ];
