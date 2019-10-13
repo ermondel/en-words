@@ -1,1156 +1,927 @@
 export default [
   {
     en: 'broadcast',
-    ru: 'вещание, трансляция, передача, транслировать',
-    type: 'noun/verb'
+    ru: 'вещание, трансляция, передача, транслировать'
   },
   {
     en: 'plot',
-    ru: 'сюжет, заговор, график, участок земли, замышлять',
-    type: 'noun/verb'
+    ru: 'сюжет, заговор, график, участок земли, замышлять'
   },
-  { en: 'episode', ru: 'эпизод, серия', type: 'noun' },
-  { en: 'cabaret', ru: 'кабаре', type: 'noun' },
-  { en: 'host', ru: 'принимать, провести, хозяин, ведущий', type: 'verb/noun' },
-  { en: 'sitcom', ru: 'ситком, комедия', type: 'verb/noun' },
+  { en: 'episode', ru: 'эпизод, серия' },
+  { en: 'cabaret', ru: 'кабаре' },
+  { en: 'host', ru: 'принимать, провести, хозяин, ведущий' },
+  { en: 'sitcom', ru: 'ситком, комедия' },
   {
     en: 'interview',
-    ru: 'интервью, собеседование, брать интервью',
-    type: 'noun/verb'
+    ru: 'интервью, собеседование, брать интервью'
   },
-  { en: 'cartoon', ru: 'мультфильм, карикатура', type: 'noun' },
-  { en: 'slow TV', ru: 'Медленное телевидение', type: 'phrase' },
-  { en: 'hidden camera', ru: 'скрытая камера', type: 'phrase' },
-  { en: 'satire', ru: 'сатира', type: 'noun' },
-  { en: 'tearjerker', ru: 'слезливый фильм', type: 'noun' },
-  { en: 'practical joke', ru: 'розыгрыш, грубая шутка', type: 'phrase' },
-  { en: 'TV series', ru: 'телесериал', type: 'noun' },
-  { en: 'cookery', ru: 'кулинария', type: 'noun' },
+  { en: 'cartoon', ru: 'мультфильм, карикатура' },
+  { en: 'slow TV', ru: 'Медленное телевидение' },
+  { en: 'hidden camera', ru: 'скрытая камера' },
+  { en: 'satire', ru: 'сатира' },
+  { en: 'tearjerker', ru: 'слезливый фильм' },
+  { en: 'practical joke', ru: 'розыгрыш, грубая шутка' },
+  { en: 'TV series', ru: 'телесериал' },
+  { en: 'cookery', ru: 'кулинария' },
   {
     en: 'documentary',
-    ru: 'документальный фильм, документальный',
-    type: 'noun/adjective'
+    ru: 'документальный фильм, документальный'
   },
-  { en: 'makeover', ru: 'макияж, преображение', type: 'noun' },
-  { en: 'DIY', ru: '"сделай сам"', type: 'phrase' },
-  { en: 'remote control', ru: 'дистанционное управление', type: 'noun' },
-  { en: 'clicker', ru: 'пульт, кликер', type: 'noun' },
-  { en: 'flatscreen TV', ru: 'телевизор с плоским экраном', type: 'phrase' },
-  { en: 'widescreen', ru: 'широкоэкранный', type: 'adjective' },
-  { en: 'premium station', ru: 'премиум станция', type: 'phrase' },
-  { en: 'prime time', ru: 'прайм-тайм', type: 'noun' },
+  { en: 'makeover', ru: 'макияж, преображение' },
+  { en: 'DIY', ru: '"сделай сам"' },
+  { en: 'remote control', ru: 'дистанционное управление' },
+  { en: 'clicker', ru: 'пульт, кликер' },
+  { en: 'flatscreen TV', ru: 'телевизор с плоским экраном' },
+  { en: 'widescreen', ru: 'широкоэкранный' },
+  { en: 'premium station', ru: 'премиум станция' },
+  { en: 'prime time', ru: 'прайм-тайм' },
   {
     en: 'rerun',
-    ru: 'повтор, повторный показ, перезапускать',
-    type: 'noun/verb'
+    ru: 'повтор, повторный показ, перезапускать'
   },
-  { en: 'rating', ru: 'рейтинг, оценка, рейтинговый', type: 'noun/verb' },
-  { en: 'newscaster', ru: 'диктор, ведущий новостей', type: 'noun' },
-  { en: 'newscast anchor', ru: 'ведущий новостей', type: 'noun' },
-  { en: 'commercial break', ru: 'рекламная пауза', type: 'noun' },
+  { en: 'rating', ru: 'рейтинг, оценка, рейтинговый' },
+  { en: 'newscaster', ru: 'диктор, ведущий новостей' },
+  { en: 'newscast anchor', ru: 'ведущий новостей' },
+  { en: 'commercial break', ru: 'рекламная пауза' },
   {
     en: 'decay',
-    ru: 'распад, упадок, разложение, распадаться, разлагаться',
-    type: 'noun/verb'
+    ru: 'распад, упадок, разложение, распадаться, разлагаться'
   },
-  { en: 'attempt', ru: 'попытка, пытаться', type: 'noun/verb' },
+  { en: 'attempt', ru: 'попытка, пытаться' },
   {
     en: 'bid',
-    ru: 'заявка, предложение, ставка, предложить, поставить',
-    type: 'noun/verb'
+    ru: 'заявка, предложение, ставка, предложить, поставить'
   },
   {
     en: 'storage locker',
-    ru: 'шкафчик для хранения, хранилище',
-    type: 'phrase'
+    ru: 'шкафчик для хранения, хранилище'
   },
   {
     en: 'decrease',
-    ru: 'сокращение, снижение, уменьшить, снизить',
-    type: 'noun/verb'
+    ru: 'сокращение, снижение, уменьшить, снизить'
   },
   {
     en: 'make-up artist',
-    ru: 'гример, визажист',
-    type: 'noun'
+    ru: 'гример, визажист'
   },
   {
     en: 'shot',
-    ru: 'выстрел, удар, снимок, кадр',
-    type: 'noun'
+    ru: 'выстрел, удар, снимок, кадр'
   },
   {
     en: 'release',
-    ru: 'освобождение, выпуск, релиз, выпустить',
-    type: 'noun/verb'
+    ru: 'освобождение, выпуск, релиз, выпустить'
   },
   {
     en: 'credits',
-    ru: 'титры, кредиты',
-    type: 'noun'
+    ru: 'титры, кредиты'
   },
   {
     en: 'dubbed',
-    ru: 'дублированный, под названием',
-    type: 'adjective'
+    ru: 'дублированный, под названием'
   },
   {
     en: 'prequel',
-    ru: 'приквел',
-    type: 'noun'
+    ru: 'приквел'
   },
   {
     en: 'sequel',
-    ru: 'продолжение, сиквел',
-    type: 'noun'
+    ru: 'продолжение, сиквел'
   },
   {
     en: 'soundtrack',
-    ru: 'саундтрек',
-    type: 'noun'
+    ru: 'саундтрек'
   },
   {
     en: 'subtitles',
-    ru: 'субтитры',
-    type: 'noun'
+    ru: 'субтитры'
   },
   {
     en: 'special effects',
-    ru: 'спецэффекты',
-    type: 'noun'
+    ru: 'спецэффекты'
   },
   {
     en: 'plot',
-    ru: 'сюжет, заговор, график, участок земли, замышлять',
-    type: 'noun/verb'
+    ru: 'сюжет, заговор, график, участок земли, замышлять'
   },
   {
     en: 'film review',
-    ru: 'рецензия на фильм',
-    type: 'phrase'
+    ru: 'рецензия на фильм'
   },
   {
     en: 'audience',
-    ru: 'аудитория',
-    type: 'noun'
+    ru: 'аудитория'
   },
   {
     en: 'stuntman',
-    ru: 'каскадер',
-    type: 'noun'
+    ru: 'каскадер'
   },
   {
     en: 'cast',
-    ru: 'кастинг, бросок, актеры, бросать',
-    type: 'noun/verb'
+    ru: 'кастинг, бросок, актеры, бросать'
   },
   {
     en: 'starring',
-    ru: 'в главных ролях',
-    type: 'phrase'
+    ru: 'в главных ролях'
   },
   {
     en: 'leading actor',
-    ru: 'главная роль, ведущая роль',
-    type: 'phrase'
+    ru: 'главная роль, ведущая роль'
   },
   {
     en: 'supporting actor',
-    ru: 'актер второго плана',
-    type: 'phrase'
+    ru: 'актер второго плана'
   },
   {
     en: 'main character',
-    ru: 'главный герой',
-    type: 'phrase'
+    ru: 'главный герой'
   },
   {
     en: 'title role',
-    ru: 'заглавная роль',
-    type: 'phrase'
+    ru: 'заглавная роль'
   },
   {
     en: 'extra',
-    ru: 'дополнительный, дополнительно',
-    type: 'adjective/adverb'
+    ru: 'дополнительный, дополнительно'
   },
   {
     en: 'cameraman',
-    ru: 'кинооператор, оператор',
-    type: 'noun'
+    ru: 'кинооператор, оператор'
   },
   {
     en: 'producer',
-    ru: 'режиссер, продюсер, производитель',
-    type: 'noun'
+    ru: 'режиссер, продюсер, производитель'
   },
   {
     en: 'script writer',
-    ru: 'сценарист',
-    type: 'noun'
+    ru: 'сценарист'
   },
   {
     en: 'scene designer',
-    ru: 'художник-декоратор',
-    type: 'noun'
+    ru: 'художник-декоратор'
   },
   {
     en: 'costume designer',
-    ru: 'художник по костюмам',
-    type: 'noun'
+    ru: 'художник по костюмам'
   },
   {
     en: 'trailer',
-    ru: 'трейлер, прицеп',
-    type: 'noun'
+    ru: 'трейлер, прицеп'
   },
   {
     en: 'casting',
-    ru: 'кастинг, литье, отливка',
-    type: 'noun'
+    ru: 'кастинг, литье, отливка'
   },
   {
     en: 'press conference',
-    ru: 'пресс-конференция',
-    type: 'noun'
+    ru: 'пресс-конференция'
   },
   {
     en: 'premiere',
-    ru: 'премьера',
-    type: 'noun'
+    ru: 'премьера'
   },
   {
     en: 'clapper',
-    ru: 'хлопалка, трещотка',
-    type: 'noun'
+    ru: 'хлопалка, трещотка'
   },
   {
     en: 'set',
-    ru: 'устанавливать, набор, комплект, устанавливать',
-    type: 'noun/verb/adjective'
+    ru: 'устанавливать, набор, комплект, устанавливать'
   },
   {
     en: 'science-fiction',
-    ru: 'научная фантастика',
-    type: 'noun'
+    ru: 'научная фантастика'
   },
   {
     en: 'fantasy',
-    ru: 'фантазия, фэнтези, фантазийный, фантазировать',
-    type: 'noun/verb/adjective'
+    ru: 'фантазия, фэнтези, фантазийный, фантазировать'
   },
   {
     en: 'action',
-    ru: 'действие, меры',
-    type: 'noun'
+    ru: 'действие, меры'
   },
   {
     en: 'drama',
-    ru: 'драма, трагедия',
-    type: 'noun'
+    ru: 'драма, трагедия'
   },
   {
     en: 'documentary',
-    ru: 'документальный фильм, документальный',
-    type: 'noun/adjective'
+    ru: 'документальный фильм, документальный'
   },
   {
     en: 'biopic',
-    ru: 'биографический фильм',
-    type: 'noun'
+    ru: 'биографический фильм'
   },
   {
     en: 'thriller',
-    ru: 'триллер',
-    type: 'noun'
+    ru: 'триллер'
   },
   {
     en: 'romantic comedy',
-    ru: 'романтическая комедия',
-    type: 'phrase'
+    ru: 'романтическая комедия'
   },
-  //
   {
     en: 'however',
-    ru: 'тем не мение, однако, впрочем',
-    type: 'adverb, conjunction'
+    ru: 'тем не мение, однако, впрочем'
   },
   {
     en: 'furthermore',
-    ru: 'кроме того, более того',
-    type: 'adverb'
+    ru: 'кроме того, более того'
   },
   {
     en: 'for a start',
-    ru: 'для начала',
-    type: 'phrase'
+    ru: 'для начала'
   },
   {
     en: 'finally',
-    ru: 'наконец, окончательно, в заключение',
-    type: 'adverb'
+    ru: 'наконец, окончательно, в заключение'
   },
   {
     en: 'more',
-    ru: 'более, больше',
-    type: 'adverb'
+    ru: 'более, больше'
   },
   {
     en: 'on other hand',
-    ru: 'с другой стороны',
-    type: 'phrase'
+    ru: 'с другой стороны'
   },
   {
     en: 'nevertheless',
-    ru: 'тем не менее, однако',
-    type: 'adverb'
+    ru: 'тем не менее, однако'
   },
   {
     en: 'to sum up',
-    ru: 'подводя итог',
-    type: 'phrase'
+    ru: 'подводя итог'
   },
   {
     en: 'encourage',
-    ru: 'поощрять',
-    type: 'verb'
+    ru: 'поощрять'
   },
   {
     en: 'discourage',
-    ru: 'отговаривать, сдерживать',
-    type: 'verb'
+    ru: 'отговаривать, сдерживать'
   },
   {
     en: 'review',
-    ru: 'обзор, рассмотрение, рассматривать, рецензировать',
-    type: 'noun/verb'
+    ru: 'обзор, рассмотрение, рассматривать, рецензировать'
   },
   {
     en: 'genre',
-    ru: 'жанр, жанровый',
-    type: 'noun/adjective'
+    ru: 'жанр, жанровый'
   },
   {
     en: 'thread',
-    ru: 'нить',
-    type: 'noun'
+    ru: 'нить'
   },
   {
     en: 'frame per second (fps)',
-    ru: 'кадров в секунду',
-    type: 'phrase'
+    ru: 'кадров в секунду'
   },
   {
     en: 'nozzle',
-    ru: 'сопло, насадка',
-    type: 'noun'
+    ru: 'сопло, насадка'
   },
   {
     en: 'fan',
-    ru: 'фанат, вентилятор, раздувать, фанатский',
-    type: 'noun/verb/adjective'
+    ru: 'фанат, вентилятор, раздувать, фанатский'
   },
   {
     en: 'splash',
-    ru: 'всплеск, фурор, плескать',
-    type: 'noun/verb'
+    ru: 'всплеск, фурор, плескать'
   },
   {
     en: 'mist',
-    ru: 'туман, мгла, затуманиваться',
-    type: 'noun/verb'
+    ru: 'туман, мгла, затуманиваться'
   },
   {
     en: 'odour',
-    ru: 'запах, аромат',
-    type: 'noun'
+    ru: 'запах, аромат'
   },
   {
     en: 'scent',
-    ru: 'запах, нюх, след, учуять',
-    type: 'noun/verb'
+    ru: 'запах, нюх, след, учуять'
   },
   {
     en: 'reckon',
-    ru: 'считать, рассчитывать, думать',
-    type: 'verb'
+    ru: 'считать, рассчитывать, думать'
   },
   {
     en: 'in principle',
-    ru: 'в принципе',
-    type: 'phrase'
+    ru: 'в принципе'
   },
   {
     en: 'graphical',
-    ru: 'графический',
-    type: 'adjective'
+    ru: 'графический'
   },
   {
     en: 'kudos',
-    ru: 'слава, престиж, почет',
-    type: 'noun'
+    ru: 'слава, престиж, почет'
   },
   {
     en: 'has-been',
-    ru: '"бывший"',
-    type: 'phrase'
+    ru: '"бывший"'
   },
   {
     en: 'short-lived celebrity',
-    ru: 'мимолетная знаменитость',
-    type: 'phrase'
+    ru: 'мимолетная знаменитость'
   },
   {
     en: "be at one's peak",
-    ru: 'быть на пике',
-    type: 'phrase'
+    ru: 'быть на пике'
   },
   {
     en: 'be a household name',
-    ru: 'быть именем нарицательным',
-    type: 'phrase'
+    ru: 'быть именем нарицательным'
   },
   {
     en: 'become famous almost overnight',
-    ru: 'стать знаменитым за одну ночь',
-    type: 'phrase'
+    ru: 'стать знаменитым за одну ночь'
   },
   {
     en: 'be thrown into the lights of stardom',
-    ru: 'быть брошенным в огни славы',
-    type: 'phrase'
+    ru: 'быть брошенным в огни славы'
   },
   {
     en: 'be destined for stardom',
-    ru: 'быть предназначенным для славы',
-    type: 'phrase'
+    ru: 'быть предназначенным для славы'
   },
   {
     en: 'cavort',
-    ru: 'скакать',
-    type: 'verb'
+    ru: 'скакать'
   },
   {
     en: 'episode',
-    ru: 'эпизод, серия',
-    type: 'noun'
+    ru: 'эпизод, серия'
   },
   {
     en: 'lighting team',
-    ru: 'команда освещения',
-    type: 'phrase'
+    ru: 'команда освещения'
   },
   {
     en: 'crew',
-    ru: 'экипаж, команда',
-    type: 'noun'
+    ru: 'экипаж, команда'
   },
   {
     en: 'gossip',
-    ru: 'сплетни, сплетничать',
-    type: 'noun/verb'
+    ru: 'сплетни, сплетничать'
   },
   {
     en: 'be pregnant',
-    ru: 'быть беременной',
-    type: 'phrase'
+    ru: 'быть беременной'
   },
   {
     en: 'stalk',
-    ru: 'преследовать, подкрадываться, стебель, ножка',
-    type: 'verb/noun'
+    ru: 'преследовать, подкрадываться, стебель, ножка'
   },
   {
     en: 'humiliate',
-    ru: 'унижать',
-    type: 'verb'
+    ru: 'унижать'
   },
   {
     en: 'bomb threat',
-    ru: 'угроза взрыва',
-    type: 'phrase'
+    ru: 'угроза взрыва'
   },
   {
     en: 'appear',
-    ru: 'появляться, показываться, предстать',
-    type: 'verb'
+    ru: 'появляться, показываться, предстать'
   },
   {
     en: 'ache',
-    ru: 'боль, болеть',
-    type: 'noun/verb'
+    ru: 'боль, болеть'
   },
   {
     en: 'agony',
-    ru: 'агония, мука, страдание',
-    type: 'noun'
+    ru: 'агония, мука, страдание'
   },
   {
     en: 'ailment',
-    ru: 'заболевание, болезнь, недуг',
-    type: 'noun'
+    ru: 'заболевание, болезнь, недуг'
   },
   {
     en: 'allergic',
-    ru: 'аллергический',
-    type: 'adjective'
+    ru: 'аллергический'
   },
   {
     en: 'allergy',
-    ru: 'аллергия',
-    type: 'noun'
+    ru: 'аллергия'
   },
   {
     en: 'backache',
-    ru: 'боль в спине',
-    type: 'noun'
+    ru: 'боль в спине'
   },
   {
     en: 'bladder',
-    ru: 'мочевой пузырь, пузырь',
-    type: 'noun'
+    ru: 'мочевой пузырь, пузырь'
   },
   {
     en: 'cancer',
-    ru: 'рак',
-    type: 'noun'
+    ru: 'рак'
   },
   {
     en: 'chest',
-    ru: 'грудь, грудная клетка',
-    type: 'noun'
+    ru: 'грудь, грудная клетка'
   },
   {
     en: 'cough',
-    ru: 'кашель, кашлять',
-    type: 'noun/verb'
+    ru: 'кашель, кашлять'
   },
   {
     en: 'dehydrated',
-    ru: 'обезвоженный',
-    type: 'adjective'
+    ru: 'обезвоженный'
   },
   {
     en: 'dizzy',
-    ru: 'головокружение, кружится голова',
-    type: 'noun/adjective'
+    ru: 'головокружение, кружится голова'
   },
   {
     en: 'earache',
-    ru: 'ушная боль, боль в ухе',
-    type: 'noun'
+    ru: 'ушная боль, боль в ухе'
   },
   {
     en: 'fever',
-    ru: 'лихорадка, жар, температура',
-    type: 'noun'
+    ru: 'лихорадка, жар, температура'
   },
   {
     en: 'headache',
-    ru: 'головная боль',
-    type: 'noun'
+    ru: 'головная боль'
   },
   {
     en: 'kidney',
-    ru: 'почка',
-    type: 'noun'
+    ru: 'почка'
   },
   {
     en: 'liver',
-    ru: 'печень',
-    type: 'noun'
+    ru: 'печень'
   },
   {
     en: 'lung',
-    ru: 'легкое',
-    type: 'non'
+    ru: 'легкое'
   },
   {
     en: 'pill',
-    ru: 'пилюля, таблетка',
-    type: 'noun'
+    ru: 'пилюля, таблетка'
   },
   {
     en: 'pollen',
-    ru: 'пыльца',
-    type: 'noun'
+    ru: 'пыльца'
   },
   {
     en: 'prescription',
-    ru: 'рецепт',
-    type: 'noun'
+    ru: 'рецепт'
   },
   {
     en: 'rash',
-    ru: 'сыпь, опрометчивый, необдуманный',
-    type: 'noun/adjective'
+    ru: 'сыпь, опрометчивый, необдуманный'
   },
   {
     en: 'sinuses',
-    ru: 'пазухи, синусы',
-    type: 'noun'
+    ru: 'пазухи, синусы'
   },
   {
     en: 'sneeze',
-    ru: 'чихать, чиханье',
-    type: 'verb/noun'
+    ru: 'чихать, чиханье'
   },
   {
     en: 'sore',
-    ru: 'больной, боль, рана, больное место',
-    type: 'noun'
+    ru: 'больной, боль, рана, больное место'
   },
   {
     en: 'sore throat',
-    ru: 'больное горло',
-    type: 'phrase'
+    ru: 'больное горло'
   },
   {
     en: 'stomach ache',
-    ru: 'боль в животе, боль в желудке',
-    type: 'phrase'
+    ru: 'боль в животе, боль в желудке'
   },
   {
     en: 'thigh',
-    ru: 'бедро',
-    type: 'phrase'
+    ru: 'бедро'
   },
   {
     en: 'thirsty',
-    ru: 'томимый жаждой',
-    type: 'adjective'
+    ru: 'томимый жаждой'
   },
   {
     en: 'toe',
-    ru: 'палец на ноге',
-    type: 'noun'
+    ru: 'палец на ноге'
   },
   {
     en: 'toothache',
-    ru: 'зубная боль',
-    type: 'noun'
+    ru: 'зубная боль'
   },
   {
     en: 'vein',
-    ru: 'вена',
-    type: 'noun'
+    ru: 'вена'
   },
   {
     en: 'wrist',
-    ru: 'запястье',
-    type: 'noun'
+    ru: 'запястье'
   },
   {
     en: 'blood pressure',
-    ru: 'кровяное давление',
-    type: 'phrase'
+    ru: 'кровяное давление'
   },
   {
     en: 'breast cancer',
-    ru: 'рак молочной железы',
-    type: 'phrase'
+    ru: 'рак молочной железы'
   },
   {
     en: 'cancer',
-    ru: 'рак',
-    type: 'noun'
+    ru: 'рак'
   },
   {
     en: 'deprivation',
-    ru: 'лишение',
-    type: 'noun'
+    ru: 'лишение'
   },
   {
     en: 'deprived',
-    ru: 'лишенный',
-    type: 'adjective'
+    ru: 'лишенный'
   },
   {
     en: 'embarrassing',
-    ru: 'смущающий',
-    type: 'adjective'
+    ru: 'смущающий'
   },
   {
     en: 'gossip',
-    ru: 'сплетни, сплетничать',
-    type: 'noun/verb'
+    ru: 'сплетни, сплетничать'
   },
   {
     en: 'heart condition',
-    ru: 'сердечное заболевание',
-    type: 'phrase'
+    ru: 'сердечное заболевание'
   },
   {
     en: 'mastectomy',
-    ru: 'ампутация молочной железы',
-    type: 'noun'
+    ru: 'ампутация молочной железы'
   },
   {
     en: 'mean',
-    ru: 'означать, среднее',
-    type: 'verb/noun'
+    ru: 'означать, среднее'
   },
   {
     en: 'medication',
-    ru: 'лечение, лекарство',
-    type: 'noun'
+    ru: 'лечение, лекарство'
   },
   {
     en: 'odd',
-    ru: 'странный, нечетный',
-    type: 'adjective'
+    ru: 'странный, нечетный'
   },
   {
     en: 'repeat prescription',
-    ru: 'повторный рецепт',
-    type: 'phrase'
+    ru: 'повторный рецепт'
   },
   {
     en: 'severe',
-    ru: 'серьезный, суровый',
-    type: 'adjective'
+    ru: 'серьезный, суровый'
   },
   {
     en: 'sleep-deprived',
-    ru: 'бессонница',
-    type: 'adjective'
+    ru: 'бессонница'
   },
   {
     en: 'allergic reaction',
-    ru: 'аллергическая реакция',
-    type: 'phrase'
+    ru: 'аллергическая реакция'
   },
   {
     en: "Alzheimer's disease",
-    ru: 'Болезнь Альцгеймера',
-    type: 'noun'
+    ru: 'Болезнь Альцгеймера'
   },
   {
     en: 'drowsy',
-    ru: 'сонный',
-    type: 'adjective'
+    ru: 'сонный'
   },
   {
     en: 'itchy',
-    ru: 'зудящий',
-    type: 'adjective'
+    ru: 'зудящий'
   },
   {
     en: 'label',
-    ru: 'этикетка',
-    type: 'noun'
+    ru: 'этикетка'
   },
   {
     en: 'medication',
-    ru: 'лечение, лекарство',
-    type: 'noun'
+    ru: 'лечение, лекарство'
   },
   {
     en: 'medicine',
-    ru: 'медицина, лекарство',
-    type: 'noun'
+    ru: 'медицина, лекарство'
   },
   {
     en: 'memory loss',
-    ru: 'потеря памяти',
-    type: 'phrase'
+    ru: 'потеря памяти'
   },
   {
     en: 'overdose',
-    ru: 'передозировка, передозировать',
-    type: 'noun/verb'
+    ru: 'передозировка, передозировать'
   },
   {
     en: 'painkiller',
-    ru: 'болеутоляющее',
-    type: 'noun'
+    ru: 'болеутоляющее'
   },
   {
     en: 'scratch',
-    ru: 'царапина, поцарапать, почесать',
-    type: 'noun/verb'
+    ru: 'царапина, поцарапать, почесать'
   },
   {
     en: 'start off',
-    ru: 'начать, начинать',
-    type: 'verb'
+    ru: 'начать, начинать'
   },
   {
     en: 'sweat',
-    ru: 'пот, потеть',
-    type: 'noun/verb'
+    ru: 'пот, потеть'
   },
   {
     en: 'symptom',
-    ru: 'симптом, признак',
-    type: 'noun'
+    ru: 'симптом, признак'
   },
   {
     en: 'vaccination',
-    ru: 'вакцинация, прививка',
-    type: 'noun'
+    ru: 'вакцинация, прививка'
   },
   {
     en: 'vaccine',
-    ru: 'вакцина',
-    type: 'noun'
+    ru: 'вакцина'
   },
   {
     en: 'anxious',
-    ru: 'озабоченный, встревоженный',
-    type: 'adjective'
+    ru: 'озабоченный, встревоженный'
   },
   {
     en: 'blurred',
-    ru: 'размытый, расплывчатый',
-    type: 'adjective'
+    ru: 'размытый, расплывчатый'
   },
   {
     en: 'bruised',
-    ru: 'в синяках',
-    type: 'verb'
+    ru: 'в синяках'
   },
   {
     en: 'checks',
-    ru: 'проверки',
-    type: 'noun'
+    ru: 'проверки'
   },
   {
     en: 'choke',
-    ru: 'подавиться, душить',
-    type: 'verb'
+    ru: 'подавиться, душить'
   },
   {
     en: 'crutch',
-    ru: 'костыль',
-    type: 'noun'
+    ru: 'костыль'
   },
   {
     en: 'decrease',
-    ru: 'сокращение, снижение, уменьшить, снизить',
-    type: 'noun/verb'
+    ru: 'сокращение, снижение, уменьшить, снизить'
   },
   {
     en: 'eyesight',
-    ru: 'зрение',
-    type: 'noun'
+    ru: 'зрение'
   },
   {
     en: 'faint',
-    ru: 'обморок, потерять сознание, слабый',
-    type: 'noun/verb/adjective'
+    ru: 'обморок, потерять сознание, слабый'
   },
   {
     en: 'first aid',
-    ru: 'первая помощь',
-    type: 'phrase'
+    ru: 'первая помощь'
   },
   {
     en: 'hair-loss',
-    ru: 'выпадение волос',
-    type: 'noun'
+    ru: 'выпадение волос'
   },
   {
     en: 'health care',
-    ru: 'здравоохранение',
-    type: 'noun'
+    ru: 'здравоохранение'
   },
   {
     en: 'home visit',
-    ru: 'домашний визит',
-    type: 'phrase'
+    ru: 'домашний визит'
   },
   {
     en: 'immune',
-    ru: 'иммунный, иммунитет',
-    type: 'adjective/noun'
+    ru: 'иммунный, иммунитет'
   },
   {
     en: 'increase',
-    ru: 'увеличение, рост, увеличить',
-    type: 'noun/verb'
+    ru: 'увеличение, рост, увеличить'
   },
   {
     en: 'light-headed',
-    ru: 'кружится голова',
-    type: 'adjective'
+    ru: 'кружится голова'
   },
   {
     en: 'over-the-counter',
-    ru: 'без рецепта',
-    type: 'phrase'
+    ru: 'без рецепта'
   },
   {
     en: 'pregnancy',
-    ru: 'беременность',
-    type: 'noun'
+    ru: 'беременность'
   },
   {
     en: 'stitch',
-    ru: 'шов, шить, зашить',
-    type: 'noun/verb'
+    ru: 'шов, шить, зашить'
   },
   {
     en: 'surgery',
-    ru: 'хирургия',
-    type: 'noun'
+    ru: 'хирургия'
   },
   {
     en: 'swallow',
-    ru: 'глотать, глоток',
-    type: 'verb/noun'
+    ru: 'глотать, глоток'
   },
   {
     en: 'swollen',
-    ru: 'опухший',
-    type: 'adjective'
+    ru: 'опухший'
   },
   {
     en: 'twisted',
-    ru: 'вывихнул',
-    type: 'verb'
+    ru: 'вывихнул'
   },
   {
     en: 'pick words',
-    ru: 'подбирать слова',
-    type: 'phrase'
+    ru: 'подбирать слова'
   },
   {
     en: 'focus on',
-    ru: 'сосредоточиться на',
-    type: 'phrase'
+    ru: 'сосредоточиться на'
   },
   {
     en: 'memorise',
-    ru: 'запоминать',
-    type: 'verb'
+    ru: 'запоминать'
   },
   {
     en: 'visual learner',
-    ru: 'визуал (ученик)',
-    type: 'noun'
+    ru: 'визуал (ученик)'
   },
   {
     en: 'auditory learner',
-    ru: 'слушатель (ученик)',
-    type: 'verb'
+    ru: 'слушатель (ученик)'
   },
   {
     en: 'keyring',
-    ru: 'кольцо для ключей',
-    type: 'noun'
+    ru: 'кольцо для ключей'
   },
   {
     en: 'sound like',
-    ru: 'похоже на, звучит как',
-    type: 'phrase'
+    ru: 'похоже на, звучит как'
   },
   {
     en: 'study guide',
-    ru: 'учебное руководство',
-    type: 'phrase'
+    ru: 'учебное руководство'
   },
   {
     en: 'revise',
-    ru: 'пересмотреть',
-    type: 'verb'
+    ru: 'пересмотреть'
   },
   {
     en: 'revision',
-    ru: 'пересмотр',
-    type: 'noun'
+    ru: 'пересмотр'
   },
   {
     en: 'associate',
-    ru: 'ассоциировать, партнер, связанный',
-    type: 'verb/noun/adjective'
+    ru: 'ассоциировать, партнер, связанный'
   },
   {
     en: 'take notes',
-    ru: 'делать заметки',
-    type: 'phrase'
+    ru: 'делать заметки'
   },
   {
     en: 'give up',
-    ru: 'сдаваться, бросить',
-    type: 'verb'
+    ru: 'сдаваться, бросить'
   },
   {
     en: 'properly',
-    ru: 'должным образом',
-    type: 'adverb'
+    ru: 'должным образом'
   },
   {
     en: 'Never mind!',
-    ru: 'Неважно!, не бери в голову',
-    type: 'phrase'
+    ru: 'Неважно!, не бери в голову'
   },
   {
     en: 'be worth a try',
-    ru: 'стоит попытаться',
-    type: 'phrase'
+    ru: 'стоит попытаться'
   },
   {
     en: 'habit',
-    ru: 'привычка, традиция',
-    type: 'noun'
+    ru: 'привычка, традиция'
   },
   {
     en: 'record',
-    ru: 'запись, рекорд, отчет, записывать, регистрировать',
-    type: 'noun, verb'
+    ru: 'запись, рекорд, отчет, записывать, регистрировать'
   },
   {
     en: 'draw',
-    ru: 'рисовать, привлечь, ничья, жеребьевка',
-    type: 'verb/noun'
+    ru: 'рисовать, привлечь, ничья, жеребьевка'
   },
-  // -----------------------------------------------------------------------------------------
-  // -----------------------------------------------------------------------------------------
-  // -----------------------------------------------------------------------------------------
   {
     en: 'assignment',
-    ru: 'задание, назначение',
-    type: 'noun'
+    ru: 'задание, назначение'
   },
   {
     en: 'experience in',
-    ru: 'опыт в',
-    type: 'phrase'
+    ru: 'опыт в'
   },
   {
     en: 'compare',
-    ru: 'сравнить',
-    type: 'verb'
+    ru: 'сравнить'
   },
   {
     en: 'share',
-    ru: 'поделиться, доля',
-    type: 'verb/noun'
+    ru: 'поделиться, доля'
   },
   {
     en: 'afterschool club',
-    ru: 'послешкольный клуб',
-    type: 'phrase'
+    ru: 'послешкольный клуб'
   },
   {
     en: 'gap year',
-    ru: 'академический отпуск',
-    type: 'phrase'
+    ru: 'академический отпуск'
   },
   {
     en: 'vocational college',
-    ru: 'профессиональный колледж',
-    type: 'phrase'
+    ru: 'профессиональный колледж'
   },
   {
     en: 'PE (physical education)',
-    ru: 'физкультурное образование',
-    type: 'phrase'
+    ru: 'физкультурное образование'
   },
   {
     en: 'sports science',
-    ru: 'спортивная наука',
-    type: 'phrase'
+    ru: 'спортивная наука'
   },
   {
     en: 'university science',
-    ru: 'университетская наука',
-    type: 'phrase'
+    ru: 'университетская наука'
   },
   {
     en: 'nursery',
-    ru: 'детская, ясли',
-    type: 'noun'
+    ru: 'детская, ясли'
   },
   {
     en: 'primary school',
-    ru: 'начальная школа',
-    type: 'phrase'
+    ru: 'начальная школа'
   },
   {
     en: 'boarding school',
-    ru: 'школа-интернат',
-    type: 'phrase'
+    ru: 'школа-интернат'
   },
   {
     en: 'secondary school',
-    ru: 'средняя школа',
-    type: 'phrase'
+    ru: 'средняя школа'
   },
   {
     en: 'graduate',
-    ru: 'выпускник, диплом, заканчивать',
-    type: 'noun/verb'
+    ru: 'выпускник, диплом, заканчивать'
   },
   {
     en: 'schoolmate',
-    ru: 'школьный товарищ',
-    type: 'noun'
+    ru: 'школьный товарищ'
   },
   {
     en: 'well-qualified',
-    ru: 'высококвалифицированный',
-    type: 'adjective'
+    ru: 'высококвалифицированный'
   },
   {
     en: 'be obliged to',
-    ru: 'быть обязан',
-    type: 'phrase'
+    ru: 'быть обязан'
   },
   {
     en: 'enrol on a course',
-    ru: 'записаться на курс',
-    type: 'phrase'
+    ru: 'записаться на курс'
   },
   {
     en: 'oral exam',
-    ru: 'устный экзамен',
-    type: 'phrase'
+    ru: 'устный экзамен'
   },
   {
     en: 'written exam',
-    ru: 'письменный экзамен',
-    type: 'phrase'
+    ru: 'письменный экзамен'
   },
   {
     en: 'certificate',
-    ru: 'сертификат, свидетельство, аттестат, сертифицировать',
-    type: 'noun/verb'
+    ru: 'сертификат, свидетельство, аттестат, сертифицировать'
   },
   {
     en: 'skill',
-    ru: 'навык',
-    type: 'noun'
+    ru: 'навык'
   },
   {
     en: 'exchange programme',
-    ru: 'программа по обмену',
-    type: 'phrase'
+    ru: 'программа по обмену'
   },
   {
     en: 'school uniform',
-    ru: 'школьная форма',
-    type: 'noun'
+    ru: 'школьная форма'
   },
   {
     en: 'accommodation',
-    ru: 'жилье, размещение, проживание',
-    type: 'noun'
+    ru: 'жилье, размещение, проживание'
   },
   {
     en: 'compulsory',
-    ru: 'обязательный, принудительный',
-    type: 'adjective'
+    ru: 'обязательный, принудительный'
   },
   {
     en: 'attend',
-    ru: 'посещать, присутствовать, принять участие',
-    type: 'verb'
+    ru: 'посещать, присутствовать, принять участие'
   },
   {
     en: 'term',
-    ru: 'срок, термин, называть',
-    type: 'noun/verb'
+    ru: 'срок, термин, называть'
   }
 ];
