@@ -15,7 +15,7 @@ class App extends Component {
   }
 
   state = {
-    wordsList: words,
+    wordsList: words.reverse(),
     wordСorrectly: false,
     wordIndex: 0,
     wordInput: '',
@@ -78,9 +78,9 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
+      <div className='App'>
         {this.state.wordsCounter < this.state.wordsList.length ? (
-          <div className="workspace">
+          <div className='workspace'>
             <WordToTranslate
               word={this.currentWord}
               highlight={this.state.wordСorrectly}
